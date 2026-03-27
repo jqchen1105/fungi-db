@@ -1,9 +1,10 @@
 from flask import Flask, render_template_string, request, abort, url_for
 import sqlite3
+import os
 
 app = Flask(__name__)
 
-DB = "fungi.db"
+DB = os.path.join(os.path.dirname(__file__),"fungi.db")
 
 HOME_HTML = """
 <!doctype html>
