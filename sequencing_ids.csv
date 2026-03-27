@@ -1,0 +1,743 @@
+seq_id,current_id,cultivar_code,cultivar,field,ignored_no,type,layer,media,replicate,isolate_no
+A1001,CHA11P1P1_1,CHA,challenger,1,1,peel,1,pda,1,1
+A1002,CHA11P1P1_2,CHA,challenger,1,1,peel,1,pda,1,2
+A1003,CHA11P1P1_3,CHA,challenger,1,1,peel,1,pda,1,3
+A1004,CHA11P1P1_4,CHA,challenger,1,1,peel,1,pda,1,4
+A1005,CHA11P1P1_5,CHA,challenger,1,1,peel,1,pda,1,5
+A1006,CHA11P1P1_6,CHA,challenger,1,1,peel,1,pda,1,6
+A1007,CHA11P1P1_7,CHA,challenger,1,1,peel,1,pda,1,7
+A1008,CHA11P2P1_1,CHA,challenger,1,1,peel,2,pda,1,1
+A1009,CHA11P2P1_2,CHA,challenger,1,1,peel,2,pda,1,2
+A1010,CHA11P2P1_3,CHA,challenger,1,1,peel,2,pda,1,3
+A1011,CHA11P2P1_4,CHA,challenger,1,1,peel,2,pda,1,4
+A1012,CHA11P2P1_5,CHA,challenger,1,1,peel,2,pda,1,5
+A1013,CHA11P2P1_6,CHA,challenger,1,1,peel,2,pda,1,6
+A1014,CHA11P2P1_7,CHA,challenger,1,1,peel,2,pda,1,7
+A1015,CHA11P1Q1_1,CHA,challenger,1,1,peel,1,1/10 pda,1,1
+A1016,CHA11P1Q1_2,CHA,challenger,1,1,peel,1,1/10 pda,1,2
+A1017,CHA11P1Q1_3,CHA,challenger,1,1,peel,1,1/10 pda,1,3
+A1018,CHA11P1Q1_4,CHA,challenger,1,1,peel,1,1/10 pda,1,4
+A1019,CHA11P1Q1_5,CHA,challenger,1,1,peel,1,1/10 pda,1,5
+A1020,CHA11P2Q1_1,CHA,challenger,1,1,peel,2,1/10 pda,1,1
+A1021,CHA11P1P2_1,CHA,challenger,1,1,peel,1,pda,2,1
+A1022,CHA11P1P2_2,CHA,challenger,1,1,peel,1,pda,2,2
+A1023,CHA11P1P2_3,CHA,challenger,1,1,peel,1,pda,2,3
+A1024,CHA11P1P2_4,CHA,challenger,1,1,peel,1,pda,2,4
+A1025,CHA11P1P2_5,CHA,challenger,1,1,peel,1,pda,2,5
+A1026,CHA11P1P2_6,CHA,challenger,1,1,peel,1,pda,2,6
+A1027,CHA11P1P2_7,CHA,challenger,1,1,peel,1,pda,2,7
+A1028,CHA11P1P2_8,CHA,challenger,1,1,peel,1,pda,2,8
+A1029,CHA11P1P2_9,CHA,challenger,1,1,peel,1,pda,2,9
+A1030,CHA11P1P2_10,CHA,challenger,1,1,peel,1,pda,2,10
+A1031,CHA11P1P2_11,CHA,challenger,1,1,peel,1,pda,2,11
+A1032,CHA11P1P2_12,CHA,challenger,1,1,peel,1,pda,2,12
+A1033,CHA11P1P2_13,CHA,challenger,1,1,peel,1,pda,2,13
+A1034,CHA11P1P2_14,CHA,challenger,1,1,peel,1,pda,2,14
+A1035,CHA11P2P2_1,CHA,challenger,1,1,peel,2,pda,2,1
+A1036,CHA11P2P2_2,CHA,challenger,1,1,peel,2,pda,2,2
+A1037,CHA11P3P2_1,CHA,challenger,1,1,peel,3,pda,2,1
+A1038,CHA11P3P2_2,CHA,challenger,1,1,peel,3,pda,2,2
+A1039,CHA11P3P2_3,CHA,challenger,1,1,peel,3,pda,2,3
+A1040,CHA11P3P2_4,CHA,challenger,1,1,peel,3,pda,2,4
+A1041,CHA11P3P2_5,CHA,challenger,1,1,peel,3,pda,2,5
+A1042,CHA11P1Q2_1,CHA,challenger,1,1,peel,1,1/10 pda,2,1
+A1043,CHA11P1Q2_2,CHA,challenger,1,1,peel,1,1/10 pda,2,2
+A1044,CHA11P1Q2_3,CHA,challenger,1,1,peel,1,1/10 pda,2,3
+A1045,CHA11P1Q2_4,CHA,challenger,1,1,peel,1,1/10 pda,2,4
+A1046,CHA11P1Q2_5,CHA,challenger,1,1,peel,1,1/10 pda,2,5
+A1047,CHA11P2Q2_1,CHA,challenger,1,1,peel,2,1/10 pda,2,1
+A1048,CHA11P2Q2_2,CHA,challenger,1,1,peel,2,1/10 pda,2,2
+A1049,CHA11P2Q2_3,CHA,challenger,1,1,peel,2,1/10 pda,2,3
+A1050,CHA11P2Q2_4,CHA,challenger,1,1,peel,2,1/10 pda,2,4
+A1051,CHA11P2Q2_5,CHA,challenger,1,1,peel,2,1/10 pda,2,5
+A1052,CHA11D1P1_1,CHA,challenger,1,1,crushed,1,pda,1,1
+A1053,CHA11D1P1_2,CHA,challenger,1,1,crushed,1,pda,1,2
+A1054,CHA11D1P1_3,CHA,challenger,1,1,crushed,1,pda,1,3
+A1055,CHA11D1P1_4,CHA,challenger,1,1,crushed,1,pda,1,4
+A1056,CHA11D1P1_5,CHA,challenger,1,1,crushed,1,pda,1,5
+A1057,CHA11D1P1_6,CHA,challenger,1,1,crushed,1,pda,1,6
+A1058,CHA11D1P1_7,CHA,challenger,1,1,crushed,1,pda,1,7
+A1059,CHA11D1P1_8,CHA,challenger,1,1,crushed,1,pda,1,8
+A1060,CHA11D1P1_9,CHA,challenger,1,1,crushed,1,pda,1,9
+A1061,CHA11D1P1_10,CHA,challenger,1,1,crushed,1,pda,1,10
+A1062,CHA11D1P1_11,CHA,challenger,1,1,crushed,1,pda,1,11
+A1063,CHA11D1P1_12,CHA,challenger,1,1,crushed,1,pda,1,12
+A1064,CHA11D1P1_13,CHA,challenger,1,1,crushed,1,pda,1,13
+A1065,CHA11D1P1_14,CHA,challenger,1,1,crushed,1,pda,1,14
+A1066,CHA11D1P1_15,CHA,challenger,1,1,crushed,1,pda,1,15
+A1067,CHA11D1P1_16,CHA,challenger,1,1,crushed,1,pda,1,16
+A1068,CHA11D1P1_17,CHA,challenger,1,1,crushed,1,pda,1,17
+A1069,CHA11D1P1_18,CHA,challenger,1,1,crushed,1,pda,1,18
+A1070,CHA11D1P1_19,CHA,challenger,1,1,crushed,1,pda,1,19
+A1071,CHA11D1P1_20,CHA,challenger,1,1,crushed,1,pda,1,20
+A1072,CHA11D1P1_21,CHA,challenger,1,1,crushed,1,pda,1,21
+A1073,CHA11D1P1_22,CHA,challenger,1,1,crushed,1,pda,1,22
+A1074,CHA11D1P1_23,CHA,challenger,1,1,crushed,1,pda,1,23
+A1075,CHA11D1P1_24,CHA,challenger,1,1,crushed,1,pda,1,24
+A1076,CHA11D1P1_25,CHA,challenger,1,1,crushed,1,pda,1,25
+A1077,CHA11D1P1_26,CHA,challenger,1,1,crushed,1,pda,1,26
+A1078,CHA11D1P1_27,CHA,challenger,1,1,crushed,1,pda,1,27
+A1079,CHA11D1P1_28,CHA,challenger,1,1,crushed,1,pda,1,28
+A1080,CHA11D1P1_29,CHA,challenger,1,1,crushed,1,pda,1,29
+A1081,CHA11D1P1_30,CHA,challenger,1,1,crushed,1,pda,1,30
+A1082,CHA11D1P1_31,CHA,challenger,1,1,crushed,1,pda,1,31
+A1083,CHA11D1P1_32,CHA,challenger,1,1,crushed,1,pda,1,32
+A1084,CHA11D1P1_33,CHA,challenger,1,1,crushed,1,pda,1,33
+A1085,CHA11D2P1_1,CHA,challenger,1,1,crushed,2,pda,1,1
+A1086,CHA11D2P1_2,CHA,challenger,1,1,crushed,2,pda,1,2
+A1087,CHA11D2P1_3,CHA,challenger,1,1,crushed,2,pda,1,3
+A1088,CHA11D2P1_4,CHA,challenger,1,1,crushed,2,pda,1,4
+A1089,CHA11D2P1_5,CHA,challenger,1,1,crushed,2,pda,1,5
+A1090,CHA11D2P1_6,CHA,challenger,1,1,crushed,2,pda,1,6
+A1091,CHA11D2P1_7,CHA,challenger,1,1,crushed,2,pda,1,7
+A1092,CHA11D2P1_8,CHA,challenger,1,1,crushed,2,pda,1,8
+A1093,CHA11D2P1_9,CHA,challenger,1,1,crushed,2,pda,1,9
+A1094,CHA11D2P1_10,CHA,challenger,1,1,crushed,2,pda,1,10
+A1095,CHA11D2P1_11,CHA,challenger,1,1,crushed,2,pda,1,11
+A1096,CHA11D2P1_12,CHA,challenger,1,1,crushed,2,pda,1,12
+A1097,CHA11D2P1_13,CHA,challenger,1,1,crushed,2,pda,1,13
+A1098,CHA11D2P1_14,CHA,challenger,1,1,crushed,2,pda,1,14
+A1099,CHA11D2P1_15,CHA,challenger,1,1,crushed,2,pda,1,15
+A1100,CHA11D2P1_16,CHA,challenger,1,1,crushed,2,pda,1,16
+A1101,CHA11D2P1_17,CHA,challenger,1,1,crushed,2,pda,1,17
+A1102,CHA11D2P1_18,CHA,challenger,1,1,crushed,2,pda,1,18
+A1103,CHA11D2P1_19,CHA,challenger,1,1,crushed,2,pda,1,19
+A1104,CHA11D2P1_20,CHA,challenger,1,1,crushed,2,pda,1,20
+A1105,CHA11D2P1_21,CHA,challenger,1,1,crushed,2,pda,1,21
+A1106,CHA11D3P1_1,CHA,challenger,1,1,crushed,3,pda,1,1
+A1107,CHA11D1P2_1,CHA,challenger,1,1,crushed,1,pda,2,1
+A2001,CHA21P1P1_1,CHA,challenger,2,1,peel,1,pda,1,1
+A2002,CHA21P1P1_2,CHA,challenger,2,1,peel,1,pda,1,2
+A2003,CHA21P1P1_3,CHA,challenger,2,1,peel,1,pda,1,3
+A2004,CHA21P1P1_4,CHA,challenger,2,1,peel,1,pda,1,4
+A2005,CHA21P1P1_5,CHA,challenger,2,1,peel,1,pda,1,5
+A2006,CHA21P1P1_6,CHA,challenger,2,1,peel,1,pda,1,6
+A2007,CHA21P1P1_7,CHA,challenger,2,1,peel,1,pda,1,7
+A2008,CHA21P1P1_8,CHA,challenger,2,1,peel,1,pda,1,8
+A2009,CHA21P1P1_9,CHA,challenger,2,1,peel,1,pda,1,9
+A2010,CHA21P1P1_10,CHA,challenger,2,1,peel,1,pda,1,10
+A2011,CHA21P1P1_11,CHA,challenger,2,1,peel,1,pda,1,11
+A2012,CHA21P2P1_1,CHA,challenger,2,1,peel,2,pda,1,1
+A2013,CHA21P2P1_2,CHA,challenger,2,1,peel,2,pda,1,2
+A2014,CHA21P2P1_3,CHA,challenger,2,1,peel,2,pda,1,3
+A2015,CHA21P3P1_1,CHA,challenger,2,1,peel,3,pda,1,1
+A2016,CHA21P3P1_2,CHA,challenger,2,1,peel,3,pda,1,2
+A2017,CHA21P3P1_3,CHA,challenger,2,1,peel,3,pda,1,3
+A2018,CHA21P3P1_4,CHA,challenger,2,1,peel,3,pda,1,4
+A2019,CHA21P3P1_5,CHA,challenger,2,1,peel,3,pda,1,5
+A2020,CHA21P3P1_6,CHA,challenger,2,1,peel,3,pda,1,6
+A2021,CHA21P3P1_7,CHA,challenger,2,1,peel,3,pda,1,7
+A2022,CHA21P3P1_8,CHA,challenger,2,1,peel,3,pda,1,8
+A2023,CHA21P1Q1_1,CHA,challenger,2,1,peel,1,1/10 pda,1,1
+A2024,CHA21P1Q1_2,CHA,challenger,2,1,peel,1,1/10 pda,1,2
+A2025,CHA21P1Q1_3,CHA,challenger,2,1,peel,1,1/10 pda,1,3
+A2026,CHA21P1Q1_4,CHA,challenger,2,1,peel,1,1/10 pda,1,4
+A2027,CHA21P1Q1_5,CHA,challenger,2,1,peel,1,1/10 pda,1,5
+A2028,CHA21P1Q1_6,CHA,challenger,2,1,peel,1,1/10 pda,1,6
+A2029,CHA21P1Q1_7,CHA,challenger,2,1,peel,1,1/10 pda,1,7
+A2030,CHA21P1Q1_8,CHA,challenger,2,1,peel,1,1/10 pda,1,8
+A2031,CHA21P1Q1_9,CHA,challenger,2,1,peel,1,1/10 pda,1,9
+A2032,CHA21P1Q1_10,CHA,challenger,2,1,peel,1,1/10 pda,1,10
+A2033,CHA21P1Q1_11,CHA,challenger,2,1,peel,1,1/10 pda,1,11
+A2034,CHA21P1Q1_12,CHA,challenger,2,1,peel,1,1/10 pda,1,12
+A2035,CHA21P2Q1_1,CHA,challenger,2,1,peel,2,1/10 pda,1,1
+A2036,CHA21P2Q1_2,CHA,challenger,2,1,peel,2,1/10 pda,1,2
+A2037,CHA21P3Q1_1,CHA,challenger,2,1,peel,3,1/10 pda,1,1
+A2038,CHA21P3Q1_2,CHA,challenger,2,1,peel,3,1/10 pda,1,2
+A2039,CHA21P3Q1_3,CHA,challenger,2,1,peel,3,1/10 pda,1,3
+A2040,CHA21P3Q1_4,CHA,challenger,2,1,peel,3,1/10 pda,1,4
+A2041,CHA21P3Q1_5,CHA,challenger,2,1,peel,3,1/10 pda,1,5
+A2042,CHA21P3Q1_6,CHA,challenger,2,1,peel,3,1/10 pda,1,6
+A2043,CHA21P3Q1_7,CHA,challenger,2,1,peel,3,1/10 pda,1,7
+A2044,CHA21P3Q1_8,CHA,challenger,2,1,peel,3,1/10 pda,1,8
+A2045,CHA21P1P2_1,CHA,challenger,2,1,peel,1,pda,2,1
+A2046,CHA21P1P2_2,CHA,challenger,2,1,peel,1,pda,2,2
+A2047,CHA21P1P2_3,CHA,challenger,2,1,peel,1,pda,2,3
+A2048,CHA21P1P2_4,CHA,challenger,2,1,peel,1,pda,2,4
+A2049,CHA21P1P2_5,CHA,challenger,2,1,peel,1,pda,2,5
+A2050,CHA21P1P2_6,CHA,challenger,2,1,peel,1,pda,2,6
+A2051,CHA21P1P2_7,CHA,challenger,2,1,peel,1,pda,2,7
+A2052,CHA21P1P2_8,CHA,challenger,2,1,peel,1,pda,2,8
+A2053,CHA21P1P2_9,CHA,challenger,2,1,peel,1,pda,2,9
+A2054,CHA21P1P2_10,CHA,challenger,2,1,peel,1,pda,2,10
+A2055,CHA21P1P2_11,CHA,challenger,2,1,peel,1,pda,2,11
+A2056,CHA21P1P2_12,CHA,challenger,2,1,peel,1,pda,2,12
+A2057,CHA21P1P2_13,CHA,challenger,2,1,peel,1,pda,2,13
+A2058,CHA21P1P2_14,CHA,challenger,2,1,peel,1,pda,2,14
+A2059,CHA21P2P2_1,CHA,challenger,2,1,peel,2,pda,2,1
+A2060,CHA21P2P2_2,CHA,challenger,2,1,peel,2,pda,2,2
+A2061,CHA21P2P2_3,CHA,challenger,2,1,peel,2,pda,2,3
+A2062,CHA21P2P2_4,CHA,challenger,2,1,peel,2,pda,2,4
+A2063,CHA21P2P2_5,CHA,challenger,2,1,peel,2,pda,2,5
+A2064,CHA21P2P2_6,CHA,challenger,2,1,peel,2,pda,2,6
+A2065,CHA21P2P2_7,CHA,challenger,2,1,peel,2,pda,2,7
+A2066,CHA21P2P2_8,CHA,challenger,2,1,peel,2,pda,2,8
+A2067,CHA21P2P2_9,CHA,challenger,2,1,peel,2,pda,2,9
+A2068,CHA21P1Q2_1,CHA,challenger,2,1,peel,1,1/10 pda,2,1
+A2069,CHA21P1Q2_2,CHA,challenger,2,1,peel,1,1/10 pda,2,2
+A2070,CHA21P1Q2_3,CHA,challenger,2,1,peel,1,1/10 pda,2,3
+A2071,CHA21P1Q2_4,CHA,challenger,2,1,peel,1,1/10 pda,2,4
+A2072,CHA21P1Q2_5,CHA,challenger,2,1,peel,1,1/10 pda,2,5
+A2073,CHA21P1Q2_6,CHA,challenger,2,1,peel,1,1/10 pda,2,6
+A2074,CHA21P1Q2_7,CHA,challenger,2,1,peel,1,1/10 pda,2,7
+A2075,CHA21P1Q2_8,CHA,challenger,2,1,peel,1,1/10 pda,2,8
+A2076,CHA21P1Q2_9,CHA,challenger,2,1,peel,1,1/10 pda,2,9
+A2077,CHA21P1Q2_10,CHA,challenger,2,1,peel,1,1/10 pda,2,10
+A2078,CHA21P2Q2_1,CHA,challenger,2,1,peel,2,1/10 pda,2,1
+A2079,CHA21P2Q2_2,CHA,challenger,2,1,peel,2,1/10 pda,2,2
+A2080,CHA21P2Q2_3,CHA,challenger,2,1,peel,2,1/10 pda,2,3
+A2081,CHA21P2Q2_4,CHA,challenger,2,1,peel,2,1/10 pda,2,4
+A2082,CHA21P2Q2_5,CHA,challenger,2,1,peel,2,1/10 pda,2,5
+A2083,CHA21P2Q2_6,CHA,challenger,2,1,peel,2,1/10 pda,2,6
+A2084,CHA21P2Q2_7,CHA,challenger,2,1,peel,2,1/10 pda,2,7
+A2085,CHA21P2Q2_8,CHA,challenger,2,1,peel,2,1/10 pda,2,8
+A2086,CHA21P2Q2_9,CHA,challenger,2,1,peel,2,1/10 pda,2,9
+A2087,CHA21P2Q2_10,CHA,challenger,2,1,peel,2,1/10 pda,2,10
+A2088,CHA21P2Q2_11,CHA,challenger,2,1,peel,2,1/10 pda,2,11
+A2089,CHA21P3Q2_1,CHA,challenger,2,1,peel,3,1/10 pda,2,1
+A2090,CHA21P3Q2_2,CHA,challenger,2,1,peel,3,1/10 pda,2,2
+A2091,CHA21P3Q2_3,CHA,challenger,2,1,peel,3,1/10 pda,2,3
+A2092,CHA21D1P1_1,CHA,challenger,2,1,crushed,1,pda,1,1
+A2093,CHA21D1P1_2,CHA,challenger,2,1,crushed,1,pda,1,2
+A2094,CHA21D1P1_3,CHA,challenger,2,1,crushed,1,pda,1,3
+A2095,CHA21D1P1_4,CHA,challenger,2,1,crushed,1,pda,1,4
+A2096,CHA21D1P1_5,CHA,challenger,2,1,crushed,1,pda,1,5
+A2097,CHA21D1P1_6,CHA,challenger,2,1,crushed,1,pda,1,6
+A2098,CHA21D1P1_7,CHA,challenger,2,1,crushed,1,pda,1,7
+A2099,CHA21D1P1_8,CHA,challenger,2,1,crushed,1,pda,1,8
+A2100,CHA21D1P1_9,CHA,challenger,2,1,crushed,1,pda,1,9
+A2101,CHA21D1P1_10,CHA,challenger,2,1,crushed,1,pda,1,10
+A2102,CHA21D1P1_11,CHA,challenger,2,1,crushed,1,pda,1,11
+A2103,CHA21D1P1_12,CHA,challenger,2,1,crushed,1,pda,1,12
+A2104,CHA21D1P1_13,CHA,challenger,2,1,crushed,1,pda,1,13
+A2105,CHA21D1P1_14,CHA,challenger,2,1,crushed,1,pda,1,14
+A2106,CHA21D1P1_15,CHA,challenger,2,1,crushed,1,pda,1,15
+A2107,CHA21D1P1_16,CHA,challenger,2,1,crushed,1,pda,1,16
+A2108,CHA21D2P1_1,CHA,challenger,2,1,crushed,2,pda,1,1
+A2109,CHA21D3P1_1,CHA,challenger,2,1,crushed,3,pda,1,1
+A2110,CHA21D3P1_2,CHA,challenger,2,1,crushed,3,pda,1,2
+A2111,CHA21D3P1_3,CHA,challenger,2,1,crushed,3,pda,1,3
+A2112,CHA21D3P1_4,CHA,challenger,2,1,crushed,3,pda,1,4
+A2113,CHA21D1P2_1,CHA,challenger,2,1,crushed,1,pda,2,1
+A2114,CHA21D1P2_2,CHA,challenger,2,1,crushed,1,pda,2,2
+A2115,CHA21D1P2_3,CHA,challenger,2,1,crushed,1,pda,2,3
+A2116,CHA21D1P2_4,CHA,challenger,2,1,crushed,1,pda,2,4
+A2117,CHA21D1P2_5,CHA,challenger,2,1,crushed,1,pda,2,5
+A2118,CHA21D1P2_6,CHA,challenger,2,1,crushed,1,pda,2,6
+A2119,CHA21D1P2_7,CHA,challenger,2,1,crushed,1,pda,2,7
+A2120,CHA21D1P2_8,CHA,challenger,2,1,crushed,1,pda,2,8
+A2121,CHA21D1P2_9,CHA,challenger,2,1,crushed,1,pda,2,9
+A2122,CHA21D3P2_1,CHA,challenger,2,1,crushed,3,pda,2,1
+B1001,COL11P1P1_1,COL,colomba,1,1,peel,1,pda,1,1
+B1002,COL11P1P1_2,COL,colomba,1,1,peel,1,pda,1,2
+B1003,COL11P1P1_3,COL,colomba,1,1,peel,1,pda,1,3
+B1004,COL11P1P1_4,COL,colomba,1,1,peel,1,pda,1,4
+B1005,COL11P1P1_5,COL,colomba,1,1,peel,1,pda,1,5
+B1006,COL11P1P1_6,COL,colomba,1,1,peel,1,pda,1,6
+B1007,COL11P1P1_7,COL,colomba,1,1,peel,1,pda,1,7
+B1008,COL11P1P1_8,COL,colomba,1,1,peel,1,pda,1,8
+B1009,COL11P1P1_9,COL,colomba,1,1,peel,1,pda,1,9
+B1010,COL11P1Q1_1,COL,colomba,1,1,peel,1,1/10 pda,1,1
+B1011,COL11P1Q1_2,COL,colomba,1,1,peel,1,1/10 pda,1,2
+B1012,COL11P1Q1_3,COL,colomba,1,1,peel,1,1/10 pda,1,3
+B1013,COL11P1Q1_4,COL,colomba,1,1,peel,1,1/10 pda,1,4
+B1014,COL11P1Q1_5,COL,colomba,1,1,peel,1,1/10 pda,1,5
+B1015,COL11P1Q1_6,COL,colomba,1,1,peel,1,1/10 pda,1,6
+B1016,COL11P1Q1_7,COL,colomba,1,1,peel,1,1/10 pda,1,7
+B1017,COL11P1Q1_8,COL,colomba,1,1,peel,1,1/10 pda,1,8
+B1018,COL11P1Q1_9,COL,colomba,1,1,peel,1,1/10 pda,1,9
+B1019,COL11P3Q1_1,COL,colomba,1,1,peel,3,1/10 pda,1,1
+B1020,COL11P3Q1_2,COL,colomba,1,1,peel,3,1/10 pda,1,2
+B1021,COL11P3Q1_3,COL,colomba,1,1,peel,3,1/10 pda,1,3
+B1022,COL11P1P2_1,COL,colomba,1,1,peel,1,pda,2,1
+B1023,COL11P1P2_2,COL,colomba,1,1,peel,1,pda,2,2
+B1024,COL11P1P2_3,COL,colomba,1,1,peel,1,pda,2,3
+B1025,COL11P1P2_4,COL,colomba,1,1,peel,1,pda,2,4
+B1026,COL11P1P2_5,COL,colomba,1,1,peel,1,pda,2,5
+B1027,COL11P1P2_6,COL,colomba,1,1,peel,1,pda,2,6
+B1028,COL11P1P2_7,COL,colomba,1,1,peel,1,pda,2,7
+B1029,COL11P1P2_8,COL,colomba,1,1,peel,1,pda,2,8
+B1030,COL11P1P2_9,COL,colomba,1,1,peel,1,pda,2,9
+B1031,COL11P1P2_10,COL,colomba,1,1,peel,1,pda,2,10
+B1032,COL11P1P2_11,COL,colomba,1,1,peel,1,pda,2,11
+B1033,COL11P2P2_1,COL,colomba,1,1,peel,2,pda,2,1
+B1034,COL11P2P2_2,COL,colomba,1,1,peel,2,pda,2,2
+B1035,COL11P2P2_3,COL,colomba,1,1,peel,2,pda,2,3
+B1036,COL11P2P2_4,COL,colomba,1,1,peel,2,pda,2,4
+B1037,COL11P2P2_5,COL,colomba,1,1,peel,2,pda,2,5
+B1038,COL11P2P2_6,COL,colomba,1,1,peel,2,pda,2,6
+B1039,COL11P2P2_7,COL,colomba,1,1,peel,2,pda,2,7
+B1040,COL11P2P2_8,COL,colomba,1,1,peel,2,pda,2,8
+B1041,COL11P2P2_9,COL,colomba,1,1,peel,2,pda,2,9
+B1042,COL11P2P2_10,COL,colomba,1,1,peel,2,pda,2,10
+B1043,COL11P2P2_11,COL,colomba,1,1,peel,2,pda,2,11
+B1044,COL11P2P2_12,COL,colomba,1,1,peel,2,pda,2,12
+B1045,COL11P2P2_13,COL,colomba,1,1,peel,2,pda,2,13
+B1046,COL11P2P2_14,COL,colomba,1,1,peel,2,pda,2,14
+B1047,COL11P2P2_15,COL,colomba,1,1,peel,2,pda,2,15
+B1048,COL11P2P2_16,COL,colomba,1,1,peel,2,pda,2,16
+B1049,COL11P2P2_17,COL,colomba,1,1,peel,2,pda,2,17
+B1050,COL11P3P2_1,COL,colomba,1,1,peel,3,pda,2,1
+B1051,COL11P1Q2_1,COL,colomba,1,1,peel,1,1/10 pda,2,1
+B1052,COL11P1Q2_2,COL,colomba,1,1,peel,1,1/10 pda,2,2
+B1053,COL11P1Q2_3,COL,colomba,1,1,peel,1,1/10 pda,2,3
+B1054,COL11P1Q2_4,COL,colomba,1,1,peel,1,1/10 pda,2,4
+B1055,COL11P1Q2_5,COL,colomba,1,1,peel,1,1/10 pda,2,5
+B1056,COL11P1Q2_6,COL,colomba,1,1,peel,1,1/10 pda,2,6
+B1057,COL11P1Q2_7,COL,colomba,1,1,peel,1,1/10 pda,2,7
+B1058,COL11P1Q2_8,COL,colomba,1,1,peel,1,1/10 pda,2,8
+B1059,COL11P1Q2_9,COL,colomba,1,1,peel,1,1/10 pda,2,9
+B1060,COL11P1Q2_10,COL,colomba,1,1,peel,1,1/10 pda,2,10
+B1061,COL11P1Q2_11,COL,colomba,1,1,peel,1,1/10 pda,2,11
+B1062,COL11P1Q2_12,COL,colomba,1,1,peel,1,1/10 pda,2,12
+B1063,COL11P1Q2_13,COL,colomba,1,1,peel,1,1/10 pda,2,13
+B1064,COL11P2Q2_1,COL,colomba,1,1,peel,2,1/10 pda,2,1
+B1065,COL11P2Q2_2,COL,colomba,1,1,peel,2,1/10 pda,2,2
+B1066,COL11P2Q2_3,COL,colomba,1,1,peel,2,1/10 pda,2,3
+B1067,COL11P2Q2_4,COL,colomba,1,1,peel,2,1/10 pda,2,4
+B1068,COL11P2Q2_5,COL,colomba,1,1,peel,2,1/10 pda,2,5
+B1069,COL11P2Q2_6,COL,colomba,1,1,peel,2,1/10 pda,2,6
+B1070,COL11P3Q2_1,COL,colomba,1,1,peel,3,1/10 pda,2,1
+B1071,COL11P3Q2_2,COL,colomba,1,1,peel,3,1/10 pda,2,2
+B1072,COL11P3Q2_3,COL,colomba,1,1,peel,3,1/10 pda,2,3
+B1073,COL11P3Q2_4,COL,colomba,1,1,peel,3,1/10 pda,2,4
+B1074,COL11P3Q2_5,COL,colomba,1,1,peel,3,1/10 pda,2,5
+B1075,COL11P3Q2_6,COL,colomba,1,1,peel,3,1/10 pda,2,6
+B1076,COL11P3Q2_7,COL,colomba,1,1,peel,3,1/10 pda,2,7
+B1077,COL11P3Q2_8,COL,colomba,1,1,peel,3,1/10 pda,2,8
+B1078,COL11P3Q2_9,COL,colomba,1,1,peel,3,1/10 pda,2,9
+B1079,COL11P3Q2_10,COL,colomba,1,1,peel,3,1/10 pda,2,10
+B1080,COL11P3Q2_11,COL,colomba,1,1,peel,3,1/10 pda,2,11
+B1081,COL11D1P1_1,COL,colomba,1,1,crushed,1,pda,1,1
+B1082,COL11D1P1_2,COL,colomba,1,1,crushed,1,pda,1,2
+B1083,COL11D1P1_3,COL,colomba,1,1,crushed,1,pda,1,3
+B1084,COL11D1P1_4,COL,colomba,1,1,crushed,1,pda,1,4
+B1085,COL11D1P1_5,COL,colomba,1,1,crushed,1,pda,1,5
+B1086,COL11D1P1_6,COL,colomba,1,1,crushed,1,pda,1,6
+B1087,COL11D1P1_7,COL,colomba,1,1,crushed,1,pda,1,7
+B1088,COL11D1P1_8,COL,colomba,1,1,crushed,1,pda,1,8
+B1089,COL11D1P1_9,COL,colomba,1,1,crushed,1,pda,1,9
+B1090,COL11D1P1_10,COL,colomba,1,1,crushed,1,pda,1,10
+B1091,COL11D1P1_11,COL,colomba,1,1,crushed,1,pda,1,11
+B1092,COL11D2P1_1,COL,colomba,1,1,crushed,2,pda,1,1
+B1093,COL11D2P1_2,COL,colomba,1,1,crushed,2,pda,1,2
+B1094,COL11D2P1_3,COL,colomba,1,1,crushed,2,pda,1,3
+B1095,COL11D2P1_4,COL,colomba,1,1,crushed,2,pda,1,4
+B1096,COL11D2P1_5,COL,colomba,1,1,crushed,2,pda,1,5
+B1097,COL11D2P1_6,COL,colomba,1,1,crushed,2,pda,1,6
+B1098,COL11D1P2_1,COL,colomba,1,1,crushed,1,pda,2,1
+B1099,COL11D1P2_2,COL,colomba,1,1,crushed,1,pda,2,2
+B1100,COL11D1P2_3,COL,colomba,1,1,crushed,1,pda,2,3
+B1101,COL11D1P2_4,COL,colomba,1,1,crushed,1,pda,2,4
+B1102,COL11D1P2_5,COL,colomba,1,1,crushed,1,pda,2,5
+B1103,COL11D1P2_6,COL,colomba,1,1,crushed,1,pda,2,6
+B1104,COL11D1P2_7,COL,colomba,1,1,crushed,1,pda,2,7
+B1105,COL11D1P2_8,COL,colomba,1,1,crushed,1,pda,2,8
+B1106,COL11D1P2_9,COL,colomba,1,1,crushed,1,pda,2,9
+B1107,COL11D1P2_10,COL,colomba,1,1,crushed,1,pda,2,10
+B1108,COL11D1P2_11,COL,colomba,1,1,crushed,1,pda,2,11
+B1109,COL11D1P2_12,COL,colomba,1,1,crushed,1,pda,2,12
+B1110,COL11D2P2_1,COL,colomba,1,1,crushed,2,pda,2,1
+B1111,COL11D2P2_2,COL,colomba,1,1,crushed,2,pda,2,2
+B1112,COL11D2P2_3,COL,colomba,1,1,crushed,2,pda,2,3
+B1113,COL11D2P2_4,COL,colomba,1,1,crushed,2,pda,2,4
+B1114,COL11D2P2_5,COL,colomba,1,1,crushed,2,pda,2,5
+B1115,COL11D2P2_6,COL,colomba,1,1,crushed,2,pda,2,6
+B1116,COL11D2P2_7,COL,colomba,1,1,crushed,2,pda,2,7
+B1117,COL11D2P2_8,COL,colomba,1,1,crushed,2,pda,2,8
+B1118,COL11D2P2_9,COL,colomba,1,1,crushed,2,pda,2,9
+B1119,COL11D2P2_10,COL,colomba,1,1,crushed,2,pda,2,10
+B1120,COL11D2P2_11,COL,colomba,1,1,crushed,2,pda,2,11
+B1121,COL11D2P2_12,COL,colomba,1,1,crushed,2,pda,2,12
+B1122,COL11D2P2_13,COL,colomba,1,1,crushed,2,pda,2,13
+B1123,COL11D2P2_14,COL,colomba,1,1,crushed,2,pda,2,14
+B1124,COL11D2P2_15,COL,colomba,1,1,crushed,2,pda,2,15
+B1125,COL11D2P2_16,COL,colomba,1,1,crushed,2,pda,2,16
+B1126,COL11D2P2_17,COL,colomba,1,1,crushed,2,pda,2,17
+B1127,COL11D2P2_18,COL,colomba,1,1,crushed,2,pda,2,18
+B1128,COL11D2P2_19,COL,colomba,1,1,crushed,2,pda,2,19
+B1129,COL11D3P2_1,COL,colomba,1,1,crushed,3,pda,2,1
+B1130,COL11D3P2_2,COL,colomba,1,1,crushed,3,pda,2,2
+B1131,COL11D3P2_3,COL,colomba,1,1,crushed,3,pda,2,3
+B1132,COL11D3P2_4,COL,colomba,1,1,crushed,3,pda,2,4
+B1133,COL11D3P2_5,COL,colomba,1,1,crushed,3,pda,2,5
+B1134,COL11D3P2_6,COL,colomba,1,1,crushed,3,pda,2,6
+B2001,COL21P1P1_1,COL,colomba,2,1,peel,1,pda,1,1
+B2002,COL21P1P1_2,COL,colomba,2,1,peel,1,pda,1,2
+B2003,COL21P1P1_3,COL,colomba,2,1,peel,1,pda,1,3
+B2004,COL21P1P1_4,COL,colomba,2,1,peel,1,pda,1,4
+B2005,COL21P1P1_5,COL,colomba,2,1,peel,1,pda,1,5
+B2006,COL21P1P1_6,COL,colomba,2,1,peel,1,pda,1,6
+B2007,COL21P1P1_7,COL,colomba,2,1,peel,1,pda,1,7
+B2008,COL21P1P1_8,COL,colomba,2,1,peel,1,pda,1,8
+B2009,COL21P2P1_1,COL,colomba,2,1,peel,2,pda,1,1
+B2010,COL21P2P1_2,COL,colomba,2,1,peel,2,pda,1,2
+B2011,COL21P2P1_3,COL,colomba,2,1,peel,2,pda,1,3
+B2012,COL21P2P1_4,COL,colomba,2,1,peel,2,pda,1,4
+B2013,COL21P2P1_5,COL,colomba,2,1,peel,2,pda,1,5
+B2014,COL21P2P1_6,COL,colomba,2,1,peel,2,pda,1,6
+B2015,COL21P2P1_7,COL,colomba,2,1,peel,2,pda,1,7
+B2016,COL21P2P1_8,COL,colomba,2,1,peel,2,pda,1,8
+B2017,COL21P2P1_9,COL,colomba,2,1,peel,2,pda,1,9
+B2018,COL21P2P1_10,COL,colomba,2,1,peel,2,pda,1,10
+B2019,COL21P2P1_11,COL,colomba,2,1,peel,2,pda,1,11
+B2020,COL21P2P1_12,COL,colomba,2,1,peel,2,pda,1,12
+B2021,COL21P2P1_13,COL,colomba,2,1,peel,2,pda,1,13
+B2022,COL21P2P1_14,COL,colomba,2,1,peel,2,pda,1,14
+B2023,COL21P2P1_15,COL,colomba,2,1,peel,2,pda,1,15
+B2024,COL21P2P1_16,COL,colomba,2,1,peel,2,pda,1,16
+B2025,COL21P2P1_17,COL,colomba,2,1,peel,2,pda,1,17
+B2026,COL21P2P1_18,COL,colomba,2,1,peel,2,pda,1,18
+B2027,COL21P3P1_1,COL,colomba,2,1,peel,3,pda,1,1
+B2028,COL21P1Q1_1,COL,colomba,2,1,peel,1,1/10 pda,1,1
+B2029,COL21P1Q1_2,COL,colomba,2,1,peel,1,1/10 pda,1,2
+B2030,COL21P1Q1_3,COL,colomba,2,1,peel,1,1/10 pda,1,3
+B2031,COL21P1Q1_4,COL,colomba,2,1,peel,1,1/10 pda,1,4
+B2032,COL21P1Q1_5,COL,colomba,2,1,peel,1,1/10 pda,1,5
+B2033,COL21P1Q1_6,COL,colomba,2,1,peel,1,1/10 pda,1,6
+B2034,COL21P1Q1_7,COL,colomba,2,1,peel,1,1/10 pda,1,7
+B2035,COL21P1Q1_8,COL,colomba,2,1,peel,1,1/10 pda,1,8
+B2036,COL21P1Q1_9,COL,colomba,2,1,peel,1,1/10 pda,1,9
+B2037,COL21P1P2_1,COL,colomba,2,1,peel,1,pda,2,1
+B2038,COL21P1P2_2,COL,colomba,2,1,peel,1,pda,2,2
+B2039,COL21P1P2_3,COL,colomba,2,1,peel,1,pda,2,3
+B2040,COL21P1P2_4,COL,colomba,2,1,peel,1,pda,2,4
+B2041,COL21P1P2_5,COL,colomba,2,1,peel,1,pda,2,5
+B2042,COL21P1P2_6,COL,colomba,2,1,peel,1,pda,2,6
+B2043,COL21P1P2_7,COL,colomba,2,1,peel,1,pda,2,7
+B2044,COL21P1P2_8,COL,colomba,2,1,peel,1,pda,2,8
+B2045,COL21P1P2_9,COL,colomba,2,1,peel,1,pda,2,9
+B2046,COL21P1P2_10,COL,colomba,2,1,peel,1,pda,2,10
+B2047,COL21P2P2_1,COL,colomba,2,1,peel,2,pda,2,1
+B2048,COL21P2P2_2,COL,colomba,2,1,peel,2,pda,2,2
+B2049,COL21P2P2_3,COL,colomba,2,1,peel,2,pda,2,3
+B2050,COL21P2P2_4,COL,colomba,2,1,peel,2,pda,2,4
+B2051,COL21P2P2_5,COL,colomba,2,1,peel,2,pda,2,5
+B2052,COL21P2P2_6,COL,colomba,2,1,peel,2,pda,2,6
+B2053,COL21P2P2_7,COL,colomba,2,1,peel,2,pda,2,7
+B2054,COL21P2P2_8,COL,colomba,2,1,peel,2,pda,2,8
+B2055,COL21P2P2_9,COL,colomba,2,1,peel,2,pda,2,9
+B2056,COL21P2P2_10,COL,colomba,2,1,peel,2,pda,2,10
+B2057,COL21P2P2_11,COL,colomba,2,1,peel,2,pda,2,11
+B2058,COL21P3P2_1,COL,colomba,2,1,peel,3,pda,2,1
+B2059,COL21P3P2_2,COL,colomba,2,1,peel,3,pda,2,2
+B2060,COL21P3P2_3,COL,colomba,2,1,peel,3,pda,2,3
+B2061,COL21P3P2_4,COL,colomba,2,1,peel,3,pda,2,4
+B2062,COL21P3P2_5,COL,colomba,2,1,peel,3,pda,2,5
+B2063,COL21P3P2_6,COL,colomba,2,1,peel,3,pda,2,6
+B2064,COL21P3P2_7,COL,colomba,2,1,peel,3,pda,2,7
+B2065,COL21P3P2_8,COL,colomba,2,1,peel,3,pda,2,8
+B2066,COL21P1Q2_1,COL,colomba,2,1,peel,1,1/10 pda,2,1
+B2067,COL21P1Q2_2,COL,colomba,2,1,peel,1,1/10 pda,2,2
+B2068,COL21P1Q2_3,COL,colomba,2,1,peel,1,1/10 pda,2,3
+B2069,COL21P1Q2_4,COL,colomba,2,1,peel,1,1/10 pda,2,4
+B2070,COL21P1Q2_5,COL,colomba,2,1,peel,1,1/10 pda,2,5
+B2071,COL21P1Q2_6,COL,colomba,2,1,peel,1,1/10 pda,2,6
+B2072,COL21P1Q2_7,COL,colomba,2,1,peel,1,1/10 pda,2,7
+B2073,COL21P1Q2_8,COL,colomba,2,1,peel,1,1/10 pda,2,8
+B2074,COL21P1Q2_9,COL,colomba,2,1,peel,1,1/10 pda,2,9
+B2075,COL21P1Q2_10,COL,colomba,2,1,peel,1,1/10 pda,2,10
+B2076,COL21P2Q2_1,COL,colomba,2,1,peel,2,1/10 pda,2,1
+B2077,COL21P2Q2_2,COL,colomba,2,1,peel,2,1/10 pda,2,2
+B2078,COL21P2Q2_3,COL,colomba,2,1,peel,2,1/10 pda,2,3
+B2079,COL21P2Q2_4,COL,colomba,2,1,peel,2,1/10 pda,2,4
+B2080,COL21P3Q2_1,COL,colomba,2,1,peel,3,1/10 pda,2,1
+B2081,COL21P3Q2_2,COL,colomba,2,1,peel,3,1/10 pda,2,2
+B2082,COL21P3Q2_3,COL,colomba,2,1,peel,3,1/10 pda,2,3
+B2083,COL21P3Q2_4,COL,colomba,2,1,peel,3,1/10 pda,2,4
+B2084,COL21P3Q2_5,COL,colomba,2,1,peel,3,1/10 pda,2,5
+B2085,COL21P3Q2_6,COL,colomba,2,1,peel,3,1/10 pda,2,6
+B2086,COL21P3Q2_7,COL,colomba,2,1,peel,3,1/10 pda,2,7
+B2087,COL21D1P1_1,COL,colomba,2,1,crushed,1,pda,1,1
+B2088,COL21D1P1_2,COL,colomba,2,1,crushed,1,pda,1,2
+B2089,COL21D1P1_3,COL,colomba,2,1,crushed,1,pda,1,3
+B2090,COL21D1P1_4,COL,colomba,2,1,crushed,1,pda,1,4
+B2091,COL21D1P1_5,COL,colomba,2,1,crushed,1,pda,1,5
+B2092,COL21D1P1_6,COL,colomba,2,1,crushed,1,pda,1,6
+B2093,COL21D1P1_7,COL,colomba,2,1,crushed,1,pda,1,7
+B2094,COL21D1P1_8,COL,colomba,2,1,crushed,1,pda,1,8
+B2095,COL21D1P1_9,COL,colomba,2,1,crushed,1,pda,1,9
+B2096,COL21D1P1_10,COL,colomba,2,1,crushed,1,pda,1,10
+B2097,COL21D1P1_11,COL,colomba,2,1,crushed,1,pda,1,11
+B2098,COL21D1P1_12,COL,colomba,2,1,crushed,1,pda,1,12
+B2099,COL21D1P1_13,COL,colomba,2,1,crushed,1,pda,1,13
+B2100,COL21D1P1_14,COL,colomba,2,1,crushed,1,pda,1,14
+B2101,COL21D1P1_15,COL,colomba,2,1,crushed,1,pda,1,15
+B2102,COL21D1P1_16,COL,colomba,2,1,crushed,1,pda,1,16
+B2103,COL21D1P1_17,COL,colomba,2,1,crushed,1,pda,1,17
+B2104,COL21D1P1_18,COL,colomba,2,1,crushed,1,pda,1,18
+B2105,COL21D1P1_19,COL,colomba,2,1,crushed,1,pda,1,19
+B2106,COL21D1P1_20,COL,colomba,2,1,crushed,1,pda,1,20
+B2107,COL21D1P1_21,COL,colomba,2,1,crushed,1,pda,1,21
+B2108,COL21D1P1_22,COL,colomba,2,1,crushed,1,pda,1,22
+B2109,COL21D1P1_23,COL,colomba,2,1,crushed,1,pda,1,23
+B2110,COL21D1P1_24,COL,colomba,2,1,crushed,1,pda,1,24
+B2111,COL21D1P1_25,COL,colomba,2,1,crushed,1,pda,1,25
+B2112,COL21D1P1_26,COL,colomba,2,1,crushed,1,pda,1,26
+B2113,COL21D1P1_27,COL,colomba,2,1,crushed,1,pda,1,27
+B2114,COL21D1P1_28,COL,colomba,2,1,crushed,1,pda,1,28
+B2115,COL21D1P1_29,COL,colomba,2,1,crushed,1,pda,1,29
+B2116,COL21D1P1_30,COL,colomba,2,1,crushed,1,pda,1,30
+B2117,COL21D1P1_31,COL,colomba,2,1,crushed,1,pda,1,31
+B2118,COL21D1P1_32,COL,colomba,2,1,crushed,1,pda,1,32
+B2119,COL21D1P1_33,COL,colomba,2,1,crushed,1,pda,1,33
+B2120,COL21D1P1_34,COL,colomba,2,1,crushed,1,pda,1,34
+B2121,COL21D1P1_35,COL,colomba,2,1,crushed,1,pda,1,35
+B2122,COL21D1P1_36,COL,colomba,2,1,crushed,1,pda,1,36
+B2123,COL21D1P1_37,COL,colomba,2,1,crushed,1,pda,1,37
+B2124,COL21D1P1_38,COL,colomba,2,1,crushed,1,pda,1,38
+B2125,COL21D1P1_39,COL,colomba,2,1,crushed,1,pda,1,39
+B2126,COL21D2P1_1,COL,colomba,2,1,crushed,2,pda,1,1
+B2127,COL21D3P1_1,COL,colomba,2,1,crushed,3,pda,1,1
+B2128,COL21D3P1_2,COL,colomba,2,1,crushed,3,pda,1,2
+B2129,COL21D3P1_3,COL,colomba,2,1,crushed,3,pda,1,3
+B2130,COL21D3P1_4,COL,colomba,2,1,crushed,3,pda,1,4
+B2131,COL21D3P1_5,COL,colomba,2,1,crushed,3,pda,1,5
+B2132,COL21D3P1_6,COL,colomba,2,1,crushed,3,pda,1,6
+B2133,COL21D3P1_7,COL,colomba,2,1,crushed,3,pda,1,7
+B2134,COL21D3P1_8,COL,colomba,2,1,crushed,3,pda,1,8
+B2135,COL21D3P1_9,COL,colomba,2,1,crushed,3,pda,1,9
+B2136,COL21D3P1_10,COL,colomba,2,1,crushed,3,pda,1,10
+B2137,COL21D3P1_11,COL,colomba,2,1,crushed,3,pda,1,11
+B2138,COL21D3P1_12,COL,colomba,2,1,crushed,3,pda,1,12
+B2139,COL21D3P1_13,COL,colomba,2,1,crushed,3,pda,1,13
+B2140,COL21D3P1_14,COL,colomba,2,1,crushed,3,pda,1,14
+B2141,COL21D1P2_1,COL,colomba,2,1,crushed,1,pda,2,1
+B2142,COL21D1P2_2,COL,colomba,2,1,crushed,1,pda,2,2
+B2143,COL21D1P2_3,COL,colomba,2,1,crushed,1,pda,2,3
+B2144,COL21D1P2_4,COL,colomba,2,1,crushed,1,pda,2,4
+B2145,COL21D1P2_5,COL,colomba,2,1,crushed,1,pda,2,5
+B2146,COL21D1P2_6,COL,colomba,2,1,crushed,1,pda,2,6
+B2147,COL21D1P2_7,COL,colomba,2,1,crushed,1,pda,2,7
+B2148,COL21D1P2_8,COL,colomba,2,1,crushed,1,pda,2,8
+B2149,COL21D1P2_9,COL,colomba,2,1,crushed,1,pda,2,9
+B2150,COL21D1P2_10,COL,colomba,2,1,crushed,1,pda,2,10
+B2151,COL21D1P2_11,COL,colomba,2,1,crushed,1,pda,2,11
+B2152,COL21D1P2_12,COL,colomba,2,1,crushed,1,pda,2,12
+B2153,COL21D1P2_13,COL,colomba,2,1,crushed,1,pda,2,13
+B2154,COL21D1P2_14,COL,colomba,2,1,crushed,1,pda,2,14
+B2155,COL21D1P2_15,COL,colomba,2,1,crushed,1,pda,2,15
+B2156,COL21D1P2_16,COL,colomba,2,1,crushed,1,pda,2,16
+B2157,COL21D1P2_17,COL,colomba,2,1,crushed,1,pda,2,17
+B2158,COL21D1P2_18,COL,colomba,2,1,crushed,1,pda,2,18
+B2159,COL21D1P2_19,COL,colomba,2,1,crushed,1,pda,2,19
+B2160,COL21D1P2_20,COL,colomba,2,1,crushed,1,pda,2,20
+B2161,COL21D2P2_1,COL,colomba,2,1,crushed,2,pda,2,1
+B2162,COL21D2P2_2,COL,colomba,2,1,crushed,2,pda,2,2
+B2163,COL21D2P2_3,COL,colomba,2,1,crushed,2,pda,2,3
+B2164,COL21D2P2_4,COL,colomba,2,1,crushed,2,pda,2,4
+B2165,COL21D3P2_1,COL,colomba,2,1,crushed,3,pda,2,1
+B2166,COL21D3P2_2,COL,colomba,2,1,crushed,3,pda,2,2
+B2167,COL21D3P2_3,COL,colomba,2,1,crushed,3,pda,2,3
+B2168,COL21D3P2_4,COL,colomba,2,1,crushed,3,pda,2,4
+C1001,INN11P1P1_1,INN,innovator,1,1,peel,1,pda,1,1
+C1002,INN11P3P1_1,INN,innovator,1,1,peel,3,pda,1,1
+C1003,INN11P3P1_2,INN,innovator,1,1,peel,3,pda,1,2
+C1004,INN11P3P1_3,INN,innovator,1,1,peel,3,pda,1,3
+C1005,INN11P3P1_4,INN,innovator,1,1,peel,3,pda,1,4
+C1006,INN11P3P1_5,INN,innovator,1,1,peel,3,pda,1,5
+C1007,INN11P3P1_6,INN,innovator,1,1,peel,3,pda,1,6
+C1008,INN11P3P1_7,INN,innovator,1,1,peel,3,pda,1,7
+C1009,INN11P3P1_8,INN,innovator,1,1,peel,3,pda,1,8
+C1010,INN11P3P1_9,INN,innovator,1,1,peel,3,pda,1,9
+C1011,INN11P3P1_10,INN,innovator,1,1,peel,3,pda,1,10
+C1012,INN11P1Q1_1,INN,innovator,1,1,peel,1,1/10 pda,1,1
+C1013,INN11P1Q1_2,INN,innovator,1,1,peel,1,1/10 pda,1,2
+C1014,INN11P1Q1_3,INN,innovator,1,1,peel,1,1/10 pda,1,3
+C1015,INN11P1Q1_4,INN,innovator,1,1,peel,1,1/10 pda,1,4
+C1016,INN11P1Q1_5,INN,innovator,1,1,peel,1,1/10 pda,1,5
+C1017,INN11P2Q1_1,INN,innovator,1,1,peel,2,1/10 pda,1,1
+C1018,INN11P2Q1_2,INN,innovator,1,1,peel,2,1/10 pda,1,2
+C1019,INN11P2Q1_3,INN,innovator,1,1,peel,2,1/10 pda,1,3
+C1020,INN11P2Q1_4,INN,innovator,1,1,peel,2,1/10 pda,1,4
+C1021,INN11P2Q1_5,INN,innovator,1,1,peel,2,1/10 pda,1,5
+C1022,INN11P3Q1_1,INN,innovator,1,1,peel,3,1/10 pda,1,1
+C1023,INN11P1P2_1,INN,innovator,1,1,peel,1,pda,2,1
+C1024,INN11P1P2_2,INN,innovator,1,1,peel,1,pda,2,2
+C1025,INN11P1P2_3,INN,innovator,1,1,peel,1,pda,2,3
+C1026,INN11P1P2_4,INN,innovator,1,1,peel,1,pda,2,4
+C1027,INN11P1P2_5,INN,innovator,1,1,peel,1,pda,2,5
+C1028,INN11P1P2_6,INN,innovator,1,1,peel,1,pda,2,6
+C1029,INN11P2P2_1,INN,innovator,1,1,peel,2,pda,2,1
+C1030,INN11P2P2_2,INN,innovator,1,1,peel,2,pda,2,2
+C1031,INN11P2P2_3,INN,innovator,1,1,peel,2,pda,2,3
+C1032,INN11P2P2_4,INN,innovator,1,1,peel,2,pda,2,4
+C1033,INN11P3P2_1,INN,innovator,1,1,peel,3,pda,2,1
+C1034,INN11P3P2_2,INN,innovator,1,1,peel,3,pda,2,2
+C1035,INN11P1Q2_1,INN,innovator,1,1,peel,1,1/10 pda,2,1
+C1036,INN11P1Q2_2,INN,innovator,1,1,peel,1,1/10 pda,2,2
+C1037,INN11P1Q2_3,INN,innovator,1,1,peel,1,1/10 pda,2,3
+C1038,INN11P1Q2_4,INN,innovator,1,1,peel,1,1/10 pda,2,4
+C1039,INN11P1Q2_5,INN,innovator,1,1,peel,1,1/10 pda,2,5
+C1040,INN11P1Q2_6,INN,innovator,1,1,peel,1,1/10 pda,2,6
+C1041,INN11P1Q2_7,INN,innovator,1,1,peel,1,1/10 pda,2,7
+C1042,INN11P1Q2_8,INN,innovator,1,1,peel,1,1/10 pda,2,8
+C1043,INN11P1Q2_9,INN,innovator,1,1,peel,1,1/10 pda,2,9
+C1044,INN11P1Q2_10,INN,innovator,1,1,peel,1,1/10 pda,2,10
+C1045,INN11P2Q2_1,INN,innovator,1,1,peel,2,1/10 pda,2,1
+C1046,INN11P2Q2_2,INN,innovator,1,1,peel,2,1/10 pda,2,2
+C1047,INN11P2Q2_3,INN,innovator,1,1,peel,2,1/10 pda,2,3
+C1048,INN11P2Q2_4,INN,innovator,1,1,peel,2,1/10 pda,2,4
+C1049,INN11P2Q2_5,INN,innovator,1,1,peel,2,1/10 pda,2,5
+C1050,INN11P2Q2_6,INN,innovator,1,1,peel,2,1/10 pda,2,6
+C1051,INN11D1P1_1,INN,innovator,1,1,crushed,1,pda,1,1
+C1052,INN11D1P2_1,INN,innovator,1,1,crushed,1,pda,2,1
+C1053,INN11D1P2_2,INN,innovator,1,1,crushed,1,pda,2,2
+C1054,INN11D1P2_3,INN,innovator,1,1,crushed,1,pda,2,3
+C1055,INN11D1P2_4,INN,innovator,1,1,crushed,1,pda,2,4
+C1056,INN11D2P2_1,INN,innovator,1,1,crushed,2,pda,2,1
+C1057,INN11D2P2_2,INN,innovator,1,1,crushed,2,pda,2,2
+C1058,INN11D2P2_3,INN,innovator,1,1,crushed,2,pda,2,3
+C1059,INN11D2P2_4,INN,innovator,1,1,crushed,2,pda,2,4
+C2001,INN21P1P1_1,INN,innovator,2,1,peel,1,pda,1,1
+C2002,INN21P1P1_2,INN,innovator,2,1,peel,1,pda,1,2
+C2003,INN21P1P1_3,INN,innovator,2,1,peel,1,pda,1,3
+C2004,INN21P1P1_4,INN,innovator,2,1,peel,1,pda,1,4
+C2005,INN21P1P1_5,INN,innovator,2,1,peel,1,pda,1,5
+C2006,INN21P1P1_6,INN,innovator,2,1,peel,1,pda,1,6
+C2007,INN21P1P1_7,INN,innovator,2,1,peel,1,pda,1,7
+C2008,INN21P1P1_8,INN,innovator,2,1,peel,1,pda,1,8
+C2009,INN21P1P1_9,INN,innovator,2,1,peel,1,pda,1,9
+C2010,INN21P1P1_10,INN,innovator,2,1,peel,1,pda,1,10
+C2011,INN21P2P1_1,INN,innovator,2,1,peel,2,pda,1,1
+C2012,INN21P2P1_2,INN,innovator,2,1,peel,2,pda,1,2
+C2013,INN21P2P1_3,INN,innovator,2,1,peel,2,pda,1,3
+C2014,INN21P2P1_4,INN,innovator,2,1,peel,2,pda,1,4
+C2015,INN21P3P1_1,INN,innovator,2,1,peel,3,pda,1,1
+C2016,INN21P1Q1_1,INN,innovator,2,1,peel,1,1/10 pda,1,1
+C2017,INN21P1Q1_2,INN,innovator,2,1,peel,1,1/10 pda,1,2
+C2018,INN21P1Q1_3,INN,innovator,2,1,peel,1,1/10 pda,1,3
+C2019,INN21P1Q1_4,INN,innovator,2,1,peel,1,1/10 pda,1,4
+C2020,INN21P1Q1_5,INN,innovator,2,1,peel,1,1/10 pda,1,5
+C2021,INN21P1Q1_6,INN,innovator,2,1,peel,1,1/10 pda,1,6
+C2022,INN21P1Q1_7,INN,innovator,2,1,peel,1,1/10 pda,1,7
+C2023,INN21P1Q1_8,INN,innovator,2,1,peel,1,1/10 pda,1,8
+C2024,INN21P1Q1_9,INN,innovator,2,1,peel,1,1/10 pda,1,9
+C2025,INN21P1Q1_10,INN,innovator,2,1,peel,1,1/10 pda,1,10
+C2026,INN21P2Q1_1,INN,innovator,2,1,peel,2,1/10 pda,1,1
+C2027,INN21P2Q1_2,INN,innovator,2,1,peel,2,1/10 pda,1,2
+C2028,INN21P2Q1_3,INN,innovator,2,1,peel,2,1/10 pda,1,3
+C2029,INN21P2Q1_4,INN,innovator,2,1,peel,2,1/10 pda,1,4
+C2030,INN21P2Q1_5,INN,innovator,2,1,peel,2,1/10 pda,1,5
+C2031,INN21P3Q1_1,INN,innovator,2,1,peel,3,1/10 pda,1,1
+C2032,INN21P3Q1_2,INN,innovator,2,1,peel,3,1/10 pda,1,2
+C2033,INN21P3Q1_3,INN,innovator,2,1,peel,3,1/10 pda,1,3
+C2034,INN21P3Q1_4,INN,innovator,2,1,peel,3,1/10 pda,1,4
+C2035,INN21P3Q1_5,INN,innovator,2,1,peel,3,1/10 pda,1,5
+C2036,INN21P3Q1_6,INN,innovator,2,1,peel,3,1/10 pda,1,6
+C2037,INN21P3Q1_7,INN,innovator,2,1,peel,3,1/10 pda,1,7
+C2038,INN21P3Q1_8,INN,innovator,2,1,peel,3,1/10 pda,1,8
+C2039,INN21P3Q1_9,INN,innovator,2,1,peel,3,1/10 pda,1,9
+C2040,INN21P3Q1_10,INN,innovator,2,1,peel,3,1/10 pda,1,10
+C2041,INN21P1P2_1,INN,innovator,2,1,peel,1,pda,2,1
+C2042,INN21P1P2_2,INN,innovator,2,1,peel,1,pda,2,2
+C2043,INN21P1P2_3,INN,innovator,2,1,peel,1,pda,2,3
+C2044,INN21P1P2_4,INN,innovator,2,1,peel,1,pda,2,4
+C2045,INN21P1P2_5,INN,innovator,2,1,peel,1,pda,2,5
+C2046,INN21P1P2_6,INN,innovator,2,1,peel,1,pda,2,6
+C2047,INN21P1P2_7,INN,innovator,2,1,peel,1,pda,2,7
+C2048,INN21P1P2_8,INN,innovator,2,1,peel,1,pda,2,8
+C2049,INN21P1P2_9,INN,innovator,2,1,peel,1,pda,2,9
+C2050,INN21P1P2_10,INN,innovator,2,1,peel,1,pda,2,10
+C2051,INN21P2P2_1,INN,innovator,2,1,peel,2,pda,2,1
+C2052,INN21P2P2_2,INN,innovator,2,1,peel,2,pda,2,2
+C2053,INN21P2P2_3,INN,innovator,2,1,peel,2,pda,2,3
+C2054,INN21P2P2_4,INN,innovator,2,1,peel,2,pda,2,4
+C2055,INN21P1Q2_1,INN,innovator,2,1,peel,1,1/10 pda,2,1
+C2056,INN21P1Q2_2,INN,innovator,2,1,peel,1,1/10 pda,2,2
+C2057,INN21P1Q2_3,INN,innovator,2,1,peel,1,1/10 pda,2,3
+C2058,INN21P1Q2_4,INN,innovator,2,1,peel,1,1/10 pda,2,4
+C2059,INN21P1Q2_5,INN,innovator,2,1,peel,1,1/10 pda,2,5
+C2060,INN21P1Q2_6,INN,innovator,2,1,peel,1,1/10 pda,2,6
+C2061,INN21P1Q2_7,INN,innovator,2,1,peel,1,1/10 pda,2,7
+C2062,INN21P1Q2_8,INN,innovator,2,1,peel,1,1/10 pda,2,8
+C2063,INN21P1Q2_9,INN,innovator,2,1,peel,1,1/10 pda,2,9
+C2064,INN21P1Q2_10,INN,innovator,2,1,peel,1,1/10 pda,2,10
+C2065,INN21P2Q2_1,INN,innovator,2,1,peel,2,1/10 pda,2,1
+C2066,INN21P2Q2_2,INN,innovator,2,1,peel,2,1/10 pda,2,2
+C2067,INN21P2Q2_3,INN,innovator,2,1,peel,2,1/10 pda,2,3
+C2068,INN21P2Q2_4,INN,innovator,2,1,peel,2,1/10 pda,2,4
+C2069,INN21P2Q2_5,INN,innovator,2,1,peel,2,1/10 pda,2,5
+C2070,INN21P2Q2_6,INN,innovator,2,1,peel,2,1/10 pda,2,6
+C2071,INN21P3Q2_1,INN,innovator,2,1,peel,3,1/10 pda,2,1
+C2072,INN21P3Q2_2,INN,innovator,2,1,peel,3,1/10 pda,2,2
+C2073,INN21P3Q2_3,INN,innovator,2,1,peel,3,1/10 pda,2,3
+C2074,INN21P3Q2_4,INN,innovator,2,1,peel,3,1/10 pda,2,4
+C2075,INN21D1P1_1,INN,innovator,2,1,crushed,1,pda,1,1
+C2076,INN21D1P1_2,INN,innovator,2,1,crushed,1,pda,1,2
+C2077,INN21D1P1_3,INN,innovator,2,1,crushed,1,pda,1,3
+C2078,INN21D1P1_4,INN,innovator,2,1,crushed,1,pda,1,4
+C2079,INN21D1P1_5,INN,innovator,2,1,crushed,1,pda,1,5
+C2080,INN21D1P1_6,INN,innovator,2,1,crushed,1,pda,1,6
+C2081,INN21D1P1_7,INN,innovator,2,1,crushed,1,pda,1,7
+C2082,INN21D1P1_8,INN,innovator,2,1,crushed,1,pda,1,8
+C2083,INN21D1P1_9,INN,innovator,2,1,crushed,1,pda,1,9
+C2084,INN21D1P1_10,INN,innovator,2,1,crushed,1,pda,1,10
+C2085,INN21D1P1_11,INN,innovator,2,1,crushed,1,pda,1,11
+C2086,INN21D1P1_12,INN,innovator,2,1,crushed,1,pda,1,12
+C2087,INN21D1P1_13,INN,innovator,2,1,crushed,1,pda,1,13
+C2088,INN21D1P1_14,INN,innovator,2,1,crushed,1,pda,1,14
+C2089,INN21D1P1_15,INN,innovator,2,1,crushed,1,pda,1,15
+C2090,INN21D1P1_16,INN,innovator,2,1,crushed,1,pda,1,16
+C2091,INN21D1P1_17,INN,innovator,2,1,crushed,1,pda,1,17
+C2092,INN21D1P1_18,INN,innovator,2,1,crushed,1,pda,1,18
+C2093,INN21D1P1_19,INN,innovator,2,1,crushed,1,pda,1,19
+C2094,INN21D1P1_20,INN,innovator,2,1,crushed,1,pda,1,20
+C2095,INN21D1P1_21,INN,innovator,2,1,crushed,1,pda,1,21
+C2096,INN21D1P1_22,INN,innovator,2,1,crushed,1,pda,1,22
+C2097,INN21D1P1_23,INN,innovator,2,1,crushed,1,pda,1,23
+C2098,INN21D1P1_24,INN,innovator,2,1,crushed,1,pda,1,24
+C2099,INN21D1P1_25,INN,innovator,2,1,crushed,1,pda,1,25
+C2100,INN21D1P1_26,INN,innovator,2,1,crushed,1,pda,1,26
+C2101,INN21D1P1_27,INN,innovator,2,1,crushed,1,pda,1,27
+C2102,INN21D3P1_1,INN,innovator,2,1,crushed,3,pda,1,1
+C2103,INN21D3P1_2,INN,innovator,2,1,crushed,3,pda,1,2
+C2104,INN21D3P1_3,INN,innovator,2,1,crushed,3,pda,1,3
+C2105,INN21D3P1_4,INN,innovator,2,1,crushed,3,pda,1,4
+C2106,INN21D3P1_5,INN,innovator,2,1,crushed,3,pda,1,5
+C2107,INN21D1P2_1,INN,innovator,2,1,crushed,1,pda,2,1
+C2108,INN21D1P2_2,INN,innovator,2,1,crushed,1,pda,2,2
+C2109,INN21D1P2_3,INN,innovator,2,1,crushed,1,pda,2,3
+C2110,INN21D1P2_4,INN,innovator,2,1,crushed,1,pda,2,4
+C2111,INN21D1P2_5,INN,innovator,2,1,crushed,1,pda,2,5
+C2112,INN21D1P2_6,INN,innovator,2,1,crushed,1,pda,2,6
+C2113,INN21D1P2_7,INN,innovator,2,1,crushed,1,pda,2,7
+C2114,INN21D1P2_8,INN,innovator,2,1,crushed,1,pda,2,8
+C2115,INN21D1P2_9,INN,innovator,2,1,crushed,1,pda,2,9
+C2116,INN21D1P2_10,INN,innovator,2,1,crushed,1,pda,2,10
+C2117,INN21D1P2_11,INN,innovator,2,1,crushed,1,pda,2,11
+C2118,INN21D1P2_12,INN,innovator,2,1,crushed,1,pda,2,12
+C2119,INN21D1P2_13,INN,innovator,2,1,crushed,1,pda,2,13
+C2120,INN21D1P2_14,INN,innovator,2,1,crushed,1,pda,2,14
+C2121,INN21D1P2_15,INN,innovator,2,1,crushed,1,pda,2,15
+C2122,INN21D1P2_16,INN,innovator,2,1,crushed,1,pda,2,16
+C2123,INN21D1P2_17,INN,innovator,2,1,crushed,1,pda,2,17
+C2124,INN21D1P2_18,INN,innovator,2,1,crushed,1,pda,2,18
+C2125,INN21D1P2_19,INN,innovator,2,1,crushed,1,pda,2,19
+C2126,INN21D1P2_20,INN,innovator,2,1,crushed,1,pda,2,20
+C2127,INN21D1P2_21,INN,innovator,2,1,crushed,1,pda,2,21
+C2128,INN21D1P2_22,INN,innovator,2,1,crushed,1,pda,2,22
+C2129,INN21D1P2_23,INN,innovator,2,1,crushed,1,pda,2,23
+C2130,INN21D1P2_24,INN,innovator,2,1,crushed,1,pda,2,24
+C2131,INN21D1P2_25,INN,innovator,2,1,crushed,1,pda,2,25
+C2132,INN21D1P2_26,INN,innovator,2,1,crushed,1,pda,2,26
+C2133,INN21D1P2_27,INN,innovator,2,1,crushed,1,pda,2,27
+C2134,INN21D1P2_28,INN,innovator,2,1,crushed,1,pda,2,28
+C2135,INN21D1P2_29,INN,innovator,2,1,crushed,1,pda,2,29
+C2136,INN21D1P2_30,INN,innovator,2,1,crushed,1,pda,2,30
+C2137,INN21D1P2_31,INN,innovator,2,1,crushed,1,pda,2,31
+C2138,INN21D1P2_32,INN,innovator,2,1,crushed,1,pda,2,32
+C2139,INN21D1P2_33,INN,innovator,2,1,crushed,1,pda,2,33
+C2140,INN21D1P2_34,INN,innovator,2,1,crushed,1,pda,2,34
+C2141,INN21D1P2_35,INN,innovator,2,1,crushed,1,pda,2,35
+C2142,INN21D1P2_36,INN,innovator,2,1,crushed,1,pda,2,36
+C2143,INN21D1P2_37,INN,innovator,2,1,crushed,1,pda,2,37
+C2144,INN21D2P2_1,INN,innovator,2,1,crushed,2,pda,2,1
+C2145,INN21D2P2_2,INN,innovator,2,1,crushed,2,pda,2,2
+C2146,INN21D2P2_3,INN,innovator,2,1,crushed,2,pda,2,3
+C2147,INN21D2P2_4,INN,innovator,2,1,crushed,2,pda,2,4
+C2148,INN21D2P2_5,INN,innovator,2,1,crushed,2,pda,2,5
+C2149,INN21D2P2_6,INN,innovator,2,1,crushed,2,pda,2,6
+C2150,INN21D2P2_7,INN,innovator,2,1,crushed,2,pda,2,7
+C2151,INN21D2P2_8,INN,innovator,2,1,crushed,2,pda,2,8
+C2152,INN21D2P2_9,INN,innovator,2,1,crushed,2,pda,2,9
