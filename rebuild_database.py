@@ -11,6 +11,7 @@ ANNOTATIONS_CSV = "isolate_annotations.csv"
 
 ANNOTATION_FIELDS = [
     "seq_id",
+    "culture_status",
     "species",
     "blast_top_hit",
     "blast_accession",
@@ -46,6 +47,23 @@ def ensure_annotations_csv(path=ANNOTATIONS_CSV):
             writer = csv.DictWriter(f, fieldnames=ANNOTATION_FIELDS)
             writer.writeheader()
         print(f"Created empty {path}")
+        return
+
+    # If the file exists but is missing culture_status, add the column safely.
+    with path.open("r", newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        existing_fields = reader.fieldnames or []
+
+    missing_fields = [field for field in ANNOTATION_FIELDS if field not in existing_fields]
+    if missing_fields:
+        with path.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=ANNOTATION_FIELDS)
+            writer.writeheader()
+            for row in rows:
+                fixed = {field: row.get(field, "") for field in ANNOTATION_FIELDS}
+                writer.writerow(fixed)
+        print(f"Updated {path} with missing columns: {', '.join(missing_fields)}")
 
 
 def create_tables(conn):
@@ -91,6 +109,7 @@ def create_tables(conn):
     cur.execute("""
     CREATE TABLE isolate_annotations (
         seq_id TEXT PRIMARY KEY,
+        culture_status TEXT,
         species TEXT,
         blast_top_hit TEXT,
         blast_accession TEXT,
@@ -124,6 +143,7 @@ def create_tables(conn):
         changed TEXT,
         status TEXT,
         reason TEXT,
+        culture_status TEXT,
         species TEXT,
         blast_top_hit TEXT,
         blast_accession TEXT,
@@ -146,6 +166,7 @@ def create_tables(conn):
     cur.execute("CREATE INDEX idx_isolates_cultivar ON isolates(cultivar)")
     cur.execute("CREATE INDEX idx_isolates_species ON isolates(species)")
     cur.execute("CREATE INDEX idx_isolates_status ON isolates(status)")
+    cur.execute("CREATE INDEX idx_isolates_culture_status ON isolates(culture_status)")
 
 
 def import_plate_registry(conn, rows):
@@ -202,12 +223,13 @@ def import_annotations(conn, rows):
             continue
         cur.execute("""
         INSERT INTO isolate_annotations (
-            seq_id, species, blast_top_hit, blast_accession, blast_identity,
-            blast_query_coverage, blast_evalue, fasta_path, fasta_sequence,
-            image_path, notes
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            seq_id, culture_status, species, blast_top_hit, blast_accession,
+            blast_identity, blast_query_coverage, blast_evalue, fasta_path,
+            fasta_sequence, image_path, notes
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             seq_id,
+            normalize(row.get("culture_status") or "not tested"),
             normalize(row.get("species")),
             normalize(row.get("blast_top_hit")),
             normalize(row.get("blast_accession")),
@@ -228,7 +250,7 @@ def build_isolates_table(conn):
         seq_id, final_id, original_id, base_id, parent_id,
         cultivar_code, cultivar, field, ignored_no, type, layer, media,
         replicate, isolate_no, assigned_isolate_no, changed, status, reason,
-        species, blast_top_hit, blast_accession, blast_identity,
+        culture_status, species, blast_top_hit, blast_accession, blast_identity,
         blast_query_coverage, blast_evalue, fasta_path, fasta_sequence,
         image_path, notes
     )
@@ -251,6 +273,7 @@ def build_isolates_table(conn):
         p.changed,
         COALESCE(p.status, 'active') AS status,
         p.reason,
+        COALESCE(a.culture_status, 'not tested') AS culture_status,
         a.species,
         a.blast_top_hit,
         a.blast_accession,

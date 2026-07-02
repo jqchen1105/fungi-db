@@ -22,6 +22,11 @@ BASE_STYLE = """
     .cultivar-card:hover { background: #efefef; }
     .searchbar { margin: 18px 0; }
     .badge { display: inline-block; background: #f3f3f3; border: 1px solid #ddd; border-radius: 999px; padding: 4px 10px; margin-right: 8px; }
+    .status-active { background: #e7f7e7; border-color: #9bd49b; color: #206020; }
+    .status-inactive { background: #fdeaea; border-color: #e8a0a0; color: #8a1f1f; }
+    .status-slow { background: #fff4d6; border-color: #e3c268; color: #765600; }
+    .status-lost { background: #eee; border-color: #bbb; color: #555; }
+    .status-not-tested { background: #eef3ff; border-color: #aac0ef; color: #2b4a7f; }
 </style>
 """
 
@@ -77,7 +82,7 @@ CULTIVAR_HTML = """
 
     <table>
         <tr>
-            <th>Seq ID</th><th>Plate ID</th><th>Field</th><th>Type</th><th>Layer</th><th>Media</th><th>Species</th>
+            <th>Seq ID</th><th>Plate ID</th><th>Field</th><th>Type</th><th>Layer</th><th>Media</th><th>Status</th><th>Species</th>
         </tr>
         {% for row in isolates %}
         <tr>
@@ -87,6 +92,7 @@ CULTIVAR_HTML = """
             <td>{{ row.type or "" }}</td>
             <td>{{ row.layer or "" }}</td>
             <td>{{ row.media or "" }}</td>
+            <td><span class="badge {{ status_class(row.culture_status) }}">{{ status_label(row.culture_status) }}</span></td>
             <td>{{ row.species or "" }}</td>
         </tr>
         {% endfor %}
@@ -130,6 +136,7 @@ ISOLATE_HTML = """
         <tr><th>Changed</th><td>{{ isolate.changed or "" }}</td></tr>
         <tr><th>Status</th><td>{{ isolate.status or "" }}</td></tr>
         <tr><th>Reason</th><td>{{ isolate.reason or "" }}</td></tr>
+        <tr><th>Culture Status</th><td><span class="badge {{ status_class(isolate.culture_status) }}">{{ status_label(isolate.culture_status) }}</span></td></tr>
         <tr><th>Species</th><td>{{ isolate.species or "" }}</td></tr>
         <tr><th>BLAST Top Hit</th><td>{{ isolate.blast_top_hit or "" }}</td></tr>
         <tr><th>BLAST Accession</th><td>{{ isolate.blast_accession or "" }}</td></tr>
@@ -164,7 +171,7 @@ SEARCH_HTML = """
     <p>{{ results|length }} result(s)</p>
     <table>
         <tr>
-            <th>Seq ID</th><th>Plate ID</th><th>Cultivar</th><th>Field</th><th>Type</th><th>Layer</th><th>Media</th><th>Species</th>
+            <th>Seq ID</th><th>Plate ID</th><th>Cultivar</th><th>Field</th><th>Type</th><th>Layer</th><th>Media</th><th>Status</th><th>Species</th>
         </tr>
         {% for row in results %}
         <tr>
@@ -175,6 +182,7 @@ SEARCH_HTML = """
             <td>{{ row.type or "" }}</td>
             <td>{{ row.layer or "" }}</td>
             <td>{{ row.media or "" }}</td>
+            <td><span class="badge {{ status_class(row.culture_status) }}">{{ status_label(row.culture_status) }}</span></td>
             <td>{{ row.species or "" }}</td>
         </tr>
         {% endfor %}
@@ -188,6 +196,26 @@ def get_connection():
     conn = sqlite3.connect(DB)
     conn.row_factory = sqlite3.Row
     return conn
+
+
+def status_label(value):
+    value = (value or "not tested").strip().lower()
+    labels = {
+        "active": "🟢 Active",
+        "inactive": "🔴 Inactive",
+        "slow": "🟡 Slow",
+        "lost": "⚫ Lost",
+        "not tested": "⚪ Not tested",
+    }
+    return labels.get(value, value)
+
+
+def status_class(value):
+    value = (value or "not tested").strip().lower().replace(" ", "-")
+    allowed = {"active", "inactive", "slow", "lost", "not-tested"}
+    if value not in allowed:
+        value = "not-tested"
+    return f"status-{value}"
 
 
 @app.route("/")
@@ -213,7 +241,7 @@ def cultivar_page(cultivar):
     conn = get_connection()
     cur = conn.cursor()
     cur.execute("""
-        SELECT seq_id, final_id, field, type, layer, media, species, cultivar
+        SELECT seq_id, final_id, field, type, layer, media, culture_status, species, cultivar
         FROM isolates
         WHERE lower(cultivar) = lower(?) AND status = 'active'
         ORDER BY seq_id
@@ -222,7 +250,7 @@ def cultivar_page(cultivar):
     conn.close()
     if not isolates:
         abort(404)
-    return render_template_string(CULTIVAR_HTML, style=BASE_STYLE, cultivar=cultivar, isolates=isolates)
+    return render_template_string(CULTIVAR_HTML, style=BASE_STYLE, cultivar=cultivar, isolates=isolates, status_label=status_label, status_class=status_class)
 
 
 @app.route("/isolate/<seq_id>")
@@ -234,7 +262,7 @@ def isolate_page(seq_id):
     conn.close()
     if isolate is None:
         abort(404)
-    return render_template_string(ISOLATE_HTML, style=BASE_STYLE, isolate=isolate)
+    return render_template_string(ISOLATE_HTML, style=BASE_STYLE, isolate=isolate, status_label=status_label, status_class=status_class)
 
 @app.route("/isolate/<seq_id>/edit", methods=["GET", "POST"])
 def edit_isolate(seq_id):
@@ -252,6 +280,7 @@ def edit_isolate(seq_id):
         cur.execute("""
             UPDATE isolates
             SET
+                culture_status = ?,
                 species = ?,
                 blast_top_hit = ?,
                 blast_accession = ?,
@@ -264,6 +293,7 @@ def edit_isolate(seq_id):
                 notes = ?
             WHERE seq_id = ?
         """, (
+            request.form.get("culture_status") or "not tested",
             request.form.get("species") or None,
             request.form.get("blast_top_hit") or None,
             request.form.get("blast_accession") or None,
@@ -288,7 +318,7 @@ def edit_isolate(seq_id):
     <html>
     <head>
         <title>Edit {{ isolate.seq_id }}</title>
-        <style>{{ style }}</style>
+        {{ style|safe }}
     </head>
     <body>
         <p>
@@ -298,6 +328,17 @@ def edit_isolate(seq_id):
         <h1>Edit {{ isolate.seq_id }}</h1>
 
         <form method="post">
+            <p>Culture Status:<br>
+		<select name="culture_status">
+    			<option value="not tested" {% if isolate.culture_status == "not tested" or not isolate.culture_status %}selected{% endif %}>not tested</option>
+    			<option value="active" {% if isolate.culture_status == "active" %}selected{% endif %}>active</option>
+    			<option value="inactive after first plating" {% if isolate.culture_status == "inactive after first plating" %}selected{% endif %}>inactive after first plating</option>
+    			<option value="inactive after transfer" {% if isolate.culture_status == "inactive after transfer" %}selected{% endif %}>inactive after transfer</option>
+    			<option value="slow growth" {% if isolate.culture_status == "slow growth" %}selected{% endif %}>slow growth</option>
+    			<option value="contaminated" {% if isolate.culture_status == "contaminated" %}selected{% endif %}>contaminated</option>
+			<option value="lost" {% if isolate.culture_status == "lost" %}selected{% endif %}>lost</option>
+            </select>
+            </p>
             <p>Species:<br><input name="species" value="{{ isolate.species or '' }}"></p>
             <p>BLAST Top Hit:<br><input name="blast_top_hit" value="{{ isolate.blast_top_hit or '' }}"></p>
             <p>BLAST Accession:<br><input name="blast_accession" value="{{ isolate.blast_accession or '' }}"></p>
@@ -323,7 +364,7 @@ def search():
     if q:
         like = f"%{q}%"
         cur.execute("""
-            SELECT seq_id, final_id, cultivar, field, type, layer, media, species
+            SELECT seq_id, final_id, cultivar, field, type, layer, media, culture_status, species
             FROM isolates
             WHERE status = 'active'
               AND (
@@ -336,7 +377,7 @@ def search():
     else:
         results = []
     conn.close()
-    return render_template_string(SEARCH_HTML, style=BASE_STYLE, q=q, results=results)
+    return render_template_string(SEARCH_HTML, style=BASE_STYLE, q=q, results=results, status_label=status_label, status_class=status_class)
 
 
 if __name__ == "__main__":
