@@ -8,7 +8,6 @@ DB_FILE = "fungi.db"
 PLATE_REGISTRY_CSV = "plate_registry.csv"
 SEQUENCING_IDS_CSV = "sequencing_ids.csv"
 ANNOTATIONS_CSV = "isolate_annotations.csv"
-LOCATIONS_CSV = "isolate_locations.csv"
 
 ANNOTATION_FIELDS = [
     "seq_id",
@@ -23,18 +22,6 @@ ANNOTATION_FIELDS = [
     "fasta_sequence",
     "image_path",
     "notes",
-]
-
-LOCATION_FIELDS = [
-    "seq_id",
-    "plate_id",
-    "category",
-    "bag_code",
-    "species_group",
-    "container",
-    "position",
-    "notes",
-    "updated_at",
 ]
 
 
@@ -53,19 +40,39 @@ def read_csv(path):
         return list(csv.DictReader(f))
 
 
-def ensure_csv(path, fields):
+def ensure_annotations_csv(path=ANNOTATIONS_CSV):
     path = Path(path)
     if not path.exists():
         with path.open("w", newline="", encoding="utf-8") as f:
-            csv.DictWriter(f, fieldnames=fields).writeheader()
+            writer = csv.DictWriter(f, fieldnames=ANNOTATION_FIELDS)
+            writer.writeheader()
         print(f"Created empty {path}")
+        return
+
+    # If the file exists but is missing culture_status, add the column safely.
+    with path.open("r", newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        existing_fields = reader.fieldnames or []
+
+    missing_fields = [field for field in ANNOTATION_FIELDS if field not in existing_fields]
+    if missing_fields:
+        with path.open("w", newline="", encoding="utf-8") as f:
+            writer = csv.DictWriter(f, fieldnames=ANNOTATION_FIELDS)
+            writer.writeheader()
+            for row in rows:
+                fixed = {field: row.get(field, "") for field in ANNOTATION_FIELDS}
+                writer.writerow(fixed)
+        print(f"Updated {path} with missing columns: {', '.join(missing_fields)}")
 
 
 def create_tables(conn):
     cur = conn.cursor()
 
-    for table in ["isolates", "sequencing_ids", "plate_registry", "isolate_annotations", "isolate_locations"]:
-        cur.execute(f"DROP TABLE IF EXISTS {table}")
+    cur.execute("DROP TABLE IF EXISTS isolates")
+    cur.execute("DROP TABLE IF EXISTS sequencing_ids")
+    cur.execute("DROP TABLE IF EXISTS plate_registry")
+    cur.execute("DROP TABLE IF EXISTS isolate_annotations")
 
     cur.execute("""
     CREATE TABLE plate_registry (
@@ -117,20 +124,6 @@ def create_tables(conn):
     """)
 
     cur.execute("""
-    CREATE TABLE isolate_locations (
-        seq_id TEXT PRIMARY KEY,
-        plate_id TEXT,
-        category TEXT,
-        bag_code TEXT,
-        species_group TEXT,
-        container TEXT,
-        position TEXT,
-        location_notes TEXT,
-        updated_at TEXT
-    )
-    """)
-
-    cur.execute("""
     CREATE TABLE isolates (
         seq_id TEXT PRIMARY KEY,
         final_id TEXT UNIQUE,
@@ -161,13 +154,6 @@ def create_tables(conn):
         fasta_sequence TEXT,
         image_path TEXT,
         notes TEXT,
-        location_category TEXT,
-        bag_code TEXT,
-        species_group TEXT,
-        storage_container TEXT,
-        storage_position TEXT,
-        location_notes TEXT,
-        location_updated_at TEXT,
         FOREIGN KEY(final_id) REFERENCES plate_registry(final_id),
         FOREIGN KEY(seq_id) REFERENCES sequencing_ids(seq_id)
     )
@@ -180,7 +166,7 @@ def create_tables(conn):
     cur.execute("CREATE INDEX idx_isolates_cultivar ON isolates(cultivar)")
     cur.execute("CREATE INDEX idx_isolates_species ON isolates(species)")
     cur.execute("CREATE INDEX idx_isolates_status ON isolates(status)")
-    cur.execute("CREATE INDEX idx_isolates_bag_code ON isolates(bag_code)")
+    cur.execute("CREATE INDEX idx_isolates_culture_status ON isolates(culture_status)")
 
 
 def import_plate_registry(conn, rows):
@@ -243,7 +229,7 @@ def import_annotations(conn, rows):
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             seq_id,
-            normalize(row.get("culture_status")),
+            normalize(row.get("culture_status") or "not tested"),
             normalize(row.get("species")),
             normalize(row.get("blast_top_hit")),
             normalize(row.get("blast_accession")),
@@ -257,40 +243,16 @@ def import_annotations(conn, rows):
         ))
 
 
-def import_locations(conn, rows):
-    cur = conn.cursor()
-    for row in rows:
-        seq_id = normalize(row.get("seq_id"))
-        if not seq_id:
-            continue
-        cur.execute("""
-        INSERT INTO isolate_locations (
-            seq_id, plate_id, category, bag_code, species_group,
-            container, position, location_notes, updated_at
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, (
-            seq_id,
-            normalize(row.get("plate_id")),
-            normalize(row.get("category")),
-            normalize(row.get("bag_code")),
-            normalize(row.get("species_group")),
-            normalize(row.get("container")),
-            normalize(row.get("position")),
-            normalize(row.get("notes")),
-            normalize(row.get("updated_at")),
-        ))
-
-
 def build_isolates_table(conn):
-    conn.execute("""
+    cur = conn.cursor()
+    cur.execute("""
     INSERT INTO isolates (
         seq_id, final_id, original_id, base_id, parent_id,
         cultivar_code, cultivar, field, ignored_no, type, layer, media,
         replicate, isolate_no, assigned_isolate_no, changed, status, reason,
         culture_status, species, blast_top_hit, blast_accession, blast_identity,
         blast_query_coverage, blast_evalue, fasta_path, fasta_sequence,
-        image_path, notes, location_category, bag_code, species_group,
-        storage_container, storage_position, location_notes, location_updated_at
+        image_path, notes
     )
     SELECT
         s.seq_id,
@@ -309,9 +271,9 @@ def build_isolates_table(conn):
         s.isolate_no,
         p.assigned_isolate_no,
         p.changed,
-        COALESCE(p.status, 'active'),
+        COALESCE(p.status, 'active') AS status,
         p.reason,
-        a.culture_status,
+        COALESCE(a.culture_status, 'not tested') AS culture_status,
         a.species,
         a.blast_top_hit,
         a.blast_accession,
@@ -321,30 +283,20 @@ def build_isolates_table(conn):
         a.fasta_path,
         a.fasta_sequence,
         a.image_path,
-        a.notes,
-        l.category,
-        l.bag_code,
-        l.species_group,
-        l.container,
-        l.position,
-        l.location_notes,
-        l.updated_at
+        a.notes
     FROM sequencing_ids s
     LEFT JOIN plate_registry p ON s.current_id = p.final_id
     LEFT JOIN isolate_annotations a ON s.seq_id = a.seq_id
-    LEFT JOIN isolate_locations l ON s.seq_id = l.seq_id
     WHERE COALESCE(p.status, 'active') = 'active'
     """)
 
 
 def main():
-    ensure_csv(ANNOTATIONS_CSV, ANNOTATION_FIELDS)
-    ensure_csv(LOCATIONS_CSV, LOCATION_FIELDS)
+    ensure_annotations_csv()
 
     plate_rows = read_csv(PLATE_REGISTRY_CSV)
     seq_rows = read_csv(SEQUENCING_IDS_CSV)
     annotation_rows = read_csv(ANNOTATIONS_CSV)
-    location_rows = read_csv(LOCATIONS_CSV)
 
     conn = sqlite3.connect(DB_FILE)
     try:
@@ -352,17 +304,21 @@ def main():
         import_plate_registry(conn, plate_rows)
         import_sequencing_ids(conn, seq_rows)
         import_annotations(conn, annotation_rows)
-        import_locations(conn, location_rows)
         build_isolates_table(conn)
         conn.commit()
 
         cur = conn.cursor()
+        plate_count = cur.execute("SELECT COUNT(*) FROM plate_registry").fetchone()[0]
+        removed_count = cur.execute("SELECT COUNT(*) FROM plate_registry WHERE status = 'removed'").fetchone()[0]
+        seq_count = cur.execute("SELECT COUNT(*) FROM sequencing_ids").fetchone()[0]
+        annotation_count = cur.execute("SELECT COUNT(*) FROM isolate_annotations").fetchone()[0]
+        isolate_count = cur.execute("SELECT COUNT(*) FROM isolates").fetchone()[0]
+
         print(f"Done. Rebuilt {DB_FILE}")
-        print(f"plate_registry rows: {cur.execute('SELECT COUNT(*) FROM plate_registry').fetchone()[0]}")
-        print(f"sequencing_ids rows: {cur.execute('SELECT COUNT(*) FROM sequencing_ids').fetchone()[0]}")
-        print(f"annotation rows: {cur.execute('SELECT COUNT(*) FROM isolate_annotations').fetchone()[0]}")
-        print(f"location rows: {cur.execute('SELECT COUNT(*) FROM isolate_locations').fetchone()[0]}")
-        print(f"active website isolates: {cur.execute('SELECT COUNT(*) FROM isolates').fetchone()[0]}")
+        print(f"plate_registry rows: {plate_count} ({removed_count} removed)")
+        print(f"sequencing_ids rows: {seq_count}")
+        print(f"annotation rows: {annotation_count}")
+        print(f"active website isolates: {isolate_count}")
     finally:
         conn.close()
 

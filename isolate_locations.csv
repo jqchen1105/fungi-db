@@ -1,0 +1,63 @@
+seq_id,plate_id,category,bag_code,species_group,container,position,notes,updated_at
+C1001,INN11P1P1_1,N,01N,,,,,2026-07-13T14:43:21
+C1003,INN11P3P1_2,D,01D,,,,,2026-07-13T14:44:18
+C1006,INN11P3P1_5,S,S-Gibellulopsis-fusca,Gibellulopsis-fusca,,,,2026-07-13T15:18:29
+C1007,INN11P3P1_6,S,S-Gibellilopsis-fusca,Gibellulopsis-fusca,,,,2026-07-13T15:18:51
+C1008,INN11P3P1_7,S,S-Gibellulopsis-fusca,Gibellulopsis fusca,,,,2026-07-13T14:47:54
+C1009,INN11P3P1_8,S,S-Gibellulopsis-fusca,Gibellulopsis fusca,,,,2026-07-13T14:51:42
+C1010,INN11P3P1_9,P,01P,,,,,2026-07-13T14:52:54
+C1011,INN11P3P1_10,S,S-Gibellulopsis-fusca,Gibellulopsis fusca,,,,2026-07-13T14:54:01
+C1012,INN11P1Q1_1,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T14:54:27
+C1015,INN11P1Q1_4,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T14:54:57
+C1019,INN11P2Q1_3,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T14:55:22
+C1020,INN11P2Q1_4,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T14:55:44
+C1021,INN11P2Q1_5,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T14:56:04
+C1022,INN11P3Q1_1,P,01P,,,,,2026-07-13T14:56:43
+C1024,INN11P1P2_2,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:03:37
+C1025,INN11P1P2_3,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:03:45
+C1027,INN11P1P2_5,N,01N,,,,,2026-07-13T15:02:56
+C1028,INN11P1P2_6,N,01N,,,,,2026-07-13T15:02:26
+C1029,INN11P2P2_1,N,01N,,,,,2026-07-13T15:01:53
+C1032,INN11P2P2_4,N,01N,,,,,2026-07-13T15:01:57
+C1033,INN11P3P2_1,N,01N,,,,,2026-07-13T15:13:06
+C1035,INN11P1Q2_1,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:11:39
+C1036,INN11P1Q2_2,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:11:58
+C1038,INN11P1Q2_4,D,01D,,,,,2026-07-13T15:07:52
+C1039,INN11P1Q2_5,P,01P,,,,,2026-07-13T15:08:30
+C1040,INN11P1Q2_6,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:11:16
+C1043,INN11P1Q2_9,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:10:25
+C1044,INN11P1Q2_10,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:10:54
+C1045,INN11P2Q2_1,S,S-Verruciconidia-or,Verruciconidia or,,,,2026-07-13T15:12:26
+C1046,INN11P2Q2_2,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:09:48
+C1047,INN11P2Q2_3,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:05:28
+C1048,INN11P2Q2_4,S,S-Plectospaerella,Plectospaerella,,,,2026-07-13T15:07:26
+C1049,INN11P2Q2_5,P,01P,,,,,2026-07-13T15:06:55
+C1050,INN11P2Q2_6,S,S-Verruciconidia-or,Verruciconidia or,,,,2026-07-13T15:13:39
+C1053,INN11D1P2_2,D,01D,,,,,2026-07-13T15:09:09
+C1054,INN11D1P2_3,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:09:28
+C2001,INN21P1P1_1,N,01N,,,,,2026-07-13T15:15:20
+C2002,INN21P1P1_2,D,01D,,,,,2026-07-13T15:15:55
+C2003,INN21P1P1_3,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:16:15
+C2004,INN21P1P1_4,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:17:05
+C2005,INN21P1P1_5,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:19:11
+C2008,INN21P1P1_8,D,01D,,,,Looks like coccodes and plecto,2026-07-13T15:20:06
+C2009,INN21P1P1_9,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:20:19
+C2010,INN21P1P1_10,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:20:31
+C2011,INN21P2P1_1,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:29:03
+C2012,INN21P2P1_2,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:28:26
+C2013,INN21P2P1_3,N,01N,,,,,2026-07-13T15:28:14
+C2014,INN21P2P1_4,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:27:23
+C2015,INN21P3P1_1,P,01P,,,,,2026-07-13T15:27:07
+C2016,INN21P1Q1_1,S,S-Colletotrichum-coccodes,Colletotrichum-coccodes,,,not sequenced but clearly coccodes,2026-07-13T15:34:25
+C2017,INN21P1Q1_2,P,01P,,,,,2026-07-13T15:33:01
+C2018,INN21P1Q1_3,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:32:42
+C2019,INN21P1Q1_4,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,looks like cocoddes and 2020 but 2020 failed pcr,2026-07-13T15:32:07
+C2020,INN21P1Q1_5,P,01P,,,,,2026-07-13T15:31:15
+C2023,INN21P1Q1_8,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:30:38
+C2024,INN21P1Q1_9,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:30:27
+C2025,INN21P1Q1_10,D,01D,,,,Looks like coccodes and a slime,2026-07-13T15:30:11
+C2026,INN21P2Q1_1,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:35:10
+C2027,INN21P2Q1_2,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:35:04
+C2028,INN21P2Q1_3,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:34:55
+C2029,INN21P2Q1_4,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:34:48
+C2030,INN21P2Q1_5,S,S-Colletotrichum-coccodes,Colletotrichum coccodes,,,,2026-07-13T15:34:37
