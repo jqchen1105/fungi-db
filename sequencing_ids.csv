@@ -741,3 +741,304 @@ C2149,INN21D2P2_6,INN,innovator,2,1,crushed,2,pda,2,6
 C2150,INN21D2P2_7,INN,innovator,2,1,crushed,2,pda,2,7
 C2151,INN21D2P2_8,INN,innovator,2,1,crushed,2,pda,2,8
 C2152,INN21D2P2_9,INN,innovator,2,1,crushed,2,pda,2,9
+D1001,SAG11P1P1_1,SAG,sagitta,1,1,peel,1,pda,1,1
+D1002,SAG11P1P1_2,SAG,sagitta,1,1,peel,1,pda,1,2
+D1003,SAG11P1P1_3,SAG,sagitta,1,1,peel,1,pda,1,3
+D1004,SAG11P1P1_4,SAG,sagitta,1,1,peel,1,pda,1,4
+D1005,SAG11P2Q1_1,SAG,sagitta,1,1,peel,2,1/10 pda,1,1
+D1006,SAG11P2Q1_2,SAG,sagitta,1,1,peel,2,1/10 pda,1,2
+D1007,SAG11P1Q1_1,SAG,sagitta,1,1,peel,1,1/10 pda,1,1
+D1008,SAG11P1Q1_2,SAG,sagitta,1,1,peel,1,1/10 pda,1,2
+D1009,SAG11P1Q1_3,SAG,sagitta,1,1,peel,1,1/10 pda,1,3
+D1010,SAG11P1Q1_4,SAG,sagitta,1,1,peel,1,1/10 pda,1,4
+D1011,SAG11P1Q1_5,SAG,sagitta,1,1,peel,1,1/10 pda,1,5
+D1012,SAG11P1Q1_6,SAG,sagitta,1,1,peel,1,1/10 pda,1,6
+D1013,SAG11D3P1_1,SAG,sagitta,1,1,crushed,3,pda,1,1
+D1014,SAG11D3P1_2,SAG,sagitta,1,1,crushed,3,pda,1,2
+D1015,SAG11D3P1_3,SAG,sagitta,1,1,crushed,3,pda,1,3
+D1016,SAG11D3P1_4,SAG,sagitta,1,1,crushed,3,pda,1,4
+D1017,SAG11D3P1_5,SAG,sagitta,1,1,crushed,3,pda,1,5
+D1018,SAG11D3P1_6,SAG,sagitta,1,1,crushed,3,pda,1,6
+D1019,SAG11D3P1_7,SAG,sagitta,1,1,crushed,3,pda,1,7
+D1020,SAG11D3P1_8,SAG,sagitta,1,1,crushed,3,pda,1,8
+D1021,SAG11D3P1_9,SAG,sagitta,1,1,crushed,3,pda,1,9
+D1022,SAG11P1Q1_7,SAG,sagitta,1,1,peel,1,1/10 pda,1,7
+D1023,SAG11P1Q2_1,SAG,sagitta,1,1,peel,1,1/10 pda,2,1
+D1024,SAG11P1Q2_2,SAG,sagitta,1,1,peel,1,1/10 pda,2,2
+D1025,SAG11P1Q2_3,SAG,sagitta,1,1,peel,1,1/10 pda,2,3
+D1026,SAG11P1Q2_4,SAG,sagitta,1,1,peel,1,1/10 pda,2,4
+D1027,SAG11D1P1_1,SAG,sagitta,1,1,crushed,1,pda,1,1
+D1028,SAG11D1P1_2,SAG,sagitta,1,1,crushed,1,pda,1,2
+D1029,SAG11D1P1_3,SAG,sagitta,1,1,crushed,1,pda,1,3
+D1030,SAG11D1P1_4,SAG,sagitta,1,1,crushed,1,pda,1,4
+D1031,SAG11D1P1_5,SAG,sagitta,1,1,crushed,1,pda,1,5
+D1032,SAG11D1P1_6,SAG,sagitta,1,1,crushed,1,pda,1,6
+D1033,SAG11D1P1_7,SAG,sagitta,1,1,crushed,1,pda,1,7
+D1034,SAG11D2P1_1,SAG,sagitta,1,1,crushed,2,pda,1,1
+D1035,SAG11D2P1_2,SAG,sagitta,1,1,crushed,2,pda,1,2
+D1036,SAG11P1P2_1,SAG,sagitta,1,1,peel,1,pda,2,1
+D1037,SAG11P1P2_2,SAG,sagitta,1,1,peel,1,pda,2,2
+D1038,SAG11P1P2_3,SAG,sagitta,1,1,peel,1,pda,2,3
+D1039,SAG11P1P2_4,SAG,sagitta,1,1,peel,1,pda,2,4
+D1040,SAG11P1Q2_5,SAG,sagitta,1,1,peel,1,1/10 pda,2,5
+D1041,SAG11P1Q2_6,SAG,sagitta,1,1,peel,1,1/10 pda,2,6
+D1042,SAG11P1Q2_7,SAG,sagitta,1,1,peel,1,1/10 pda,2,7
+D1043,SAG11P2Q2_1,SAG,sagitta,1,1,peel,2,1/10 pda,2,1
+D1044,SAG11P2Q2_2,SAG,sagitta,1,1,peel,2,1/10 pda,2,2
+D1045,SAG11P2Q2_3,SAG,sagitta,1,1,peel,2,1/10 pda,2,3
+D1046,SAG11P3Q2_2,SAG,sagitta,1,1,peel,3,1/10 pda,2,2
+D1047,SAG11D1P2_1,SAG,sagitta,1,1,crushed,1,pda,2,1
+D1048,SAG11D1P2_2,SAG,sagitta,1,1,crushed,1,pda,2,2
+D1049,SAG11D1P2_3,SAG,sagitta,1,1,crushed,1,pda,2,3
+D1050,SAG11D1P2_4,SAG,sagitta,1,1,crushed,1,pda,2,4
+D1051,SAG11D1P2_5,SAG,sagitta,1,1,crushed,1,pda,2,5
+D1052,SAG11D1P2_6,SAG,sagitta,1,1,crushed,1,pda,2,6
+D1053,SAG11D1P2_7,SAG,sagitta,1,1,crushed,1,pda,2,7
+D1054,SAG11D1P2_8,SAG,sagitta,1,1,crushed,1,pda,2,8
+D1055,SAG11D1P2_9,SAG,sagitta,1,1,crushed,1,pda,2,9
+D1056,SAG11D1P2_10,SAG,sagitta,1,1,crushed,1,pda,2,10
+D1057,SAG11D1P2_11,SAG,sagitta,1,1,crushed,1,pda,2,11
+D1058,SAG11D1P2_12,SAG,sagitta,1,1,crushed,1,pda,2,12
+D1059,SAG11D1P2_13,SAG,sagitta,1,1,crushed,1,pda,2,13
+D1060,SAG11D1P2_14,SAG,sagitta,1,1,crushed,1,pda,2,14
+D1061,SAG11D1P2_15,SAG,sagitta,1,1,crushed,1,pda,2,15
+D1062,SAG11D1P2_16,SAG,sagitta,1,1,crushed,1,pda,2,16
+D1063,SAG11D1P2_17,SAG,sagitta,1,1,crushed,1,pda,2,17
+D1064,SAG11D1P2_18,SAG,sagitta,1,1,crushed,1,pda,2,18
+D1065,SAG11D1P2_19,SAG,sagitta,1,1,crushed,1,pda,2,19
+D1066,SAG11D3P2_1,SAG,sagitta,1,1,crushed,3,pda,2,1
+D1067,SAG11D3P2_2,SAG,sagitta,1,1,crushed,3,pda,2,2
+D1068,SAG11D3P2_3,SAG,sagitta,1,1,crushed,3,pda,2,3
+D1069,SAG11D3P2_4,SAG,sagitta,1,1,crushed,3,pda,2,4
+D1070,SAG11D3P2_5,SAG,sagitta,1,1,crushed,3,pda,2,5
+D1071,SAG11D3P2_6,SAG,sagitta,1,1,crushed,3,pda,2,6
+D2001,SAG21P1P1_1,SAG,sagitta,2,1,peel,1,pda,1,1
+D2002,SAG21P1P1_2,SAG,sagitta,2,1,peel,1,pda,1,2
+D2003,SAG21P1P1_3,SAG,sagitta,2,1,peel,1,pda,1,3
+D2004,SAG21P1P1_4,SAG,sagitta,2,1,peel,1,pda,1,4
+D2005,SAG21P1P1_5,SAG,sagitta,2,1,peel,1,pda,1,5
+D2006,SAG21P1P1_6,SAG,sagitta,2,1,peel,1,pda,1,6
+D2007,SAG21P1P1_7,SAG,sagitta,2,1,peel,1,pda,1,7
+D2008,SAG21P1P1_8,SAG,sagitta,2,1,peel,1,pda,1,8
+D2009,SAG21P1P1_9,SAG,sagitta,2,1,peel,1,pda,1,9
+D2010,SAG21P1P1_10,SAG,sagitta,2,1,peel,1,pda,1,10
+D2011,SAG21P1P1_11,SAG,sagitta,2,1,peel,1,pda,1,11
+D2012,SAG21P1P1_12,SAG,sagitta,2,1,peel,1,pda,1,12
+D2013,SAG21P1P1_13,SAG,sagitta,2,1,peel,1,pda,1,13
+D2014,SAG21P2P1_1,SAG,sagitta,2,1,peel,2,pda,1,1
+D2015,SAG21P2P1_2,SAG,sagitta,2,1,peel,2,pda,1,2
+D2016,SAG21P3P1_1,SAG,sagitta,2,1,peel,3,pda,1,1
+D2017,SAG21P1P2_1,SAG,sagitta,2,1,peel,1,pda,2,1
+D2018,SAG21P1P2_2,SAG,sagitta,2,1,peel,1,pda,2,2
+D2019,SAG21P1P2_3,SAG,sagitta,2,1,peel,1,pda,2,3
+D2020,SAG21P1P2_4,SAG,sagitta,2,1,peel,1,pda,2,4
+D2021,SAG21P1P2_5,SAG,sagitta,2,1,peel,1,pda,2,5
+D2022,SAG21P1P2_6,SAG,sagitta,2,1,peel,1,pda,2,6
+D2023,SAG21P3P2_1,SAG,sagitta,2,1,peel,3,pda,2,1
+D2024,SAG21P3P2_2,SAG,sagitta,2,1,peel,3,pda,2,2
+D2025,SAG21P1Q1_1,SAG,sagitta,2,1,peel,1,1/10 pda,1,1
+D2026,SAG21P1Q1_2,SAG,sagitta,2,1,peel,1,1/10 pda,1,2
+D2027,SAG21P1Q1_3,SAG,sagitta,2,1,peel,1,1/10 pda,1,3
+D2028,SAG21P1Q1_4,SAG,sagitta,2,1,peel,1,1/10 pda,1,4
+D2029,SAG21P1Q1_5,SAG,sagitta,2,1,peel,1,1/10 pda,1,5
+D2030,SAG21P1Q1_6,SAG,sagitta,2,1,peel,1,1/10 pda,1,6
+D2031,SAG21P1Q1_7,SAG,sagitta,2,1,peel,1,1/10 pda,1,7
+D2032,SAG21P1Q1_8,SAG,sagitta,2,1,peel,1,1/10 pda,1,8
+D2033,SAG21P3Q1_1,SAG,sagitta,2,1,peel,3,1/10 pda,1,1
+D2034,SAG21P3Q1_2,SAG,sagitta,2,1,peel,3,1/10 pda,1,2
+D2035,SAG21P3Q1_3,SAG,sagitta,2,1,peel,3,1/10 pda,1,3
+D2036,SAG21P3Q1_4,SAG,sagitta,2,1,peel,3,1/10 pda,1,4
+D2037,SAG21P3Q1_5,SAG,sagitta,2,1,peel,3,1/10 pda,1,5
+D2038,SAG21P3Q1_6,SAG,sagitta,2,1,peel,3,1/10 pda,1,6
+D2039,SAG21P3Q1_7,SAG,sagitta,2,1,peel,3,1/10 pda,1,7
+D2040,SAG21P2Q1_1,SAG,sagitta,2,1,peel,2,1/10 pda,1,1
+D2041,SAG21P2Q1_2,SAG,sagitta,2,1,peel,2,1/10 pda,1,2
+D2042,SAG21P2Q1_3,SAG,sagitta,2,1,peel,2,1/10 pda,1,3
+D2043,SAG21P2Q1_4,SAG,sagitta,2,1,peel,2,1/10 pda,1,4
+D2044,SAG21P2Q1_5,SAG,sagitta,2,1,peel,2,1/10 pda,1,5
+D2045,SAG21P2Q1_6,SAG,sagitta,2,1,peel,2,1/10 pda,1,6
+D2046,SAG21P1Q2_1,SAG,sagitta,2,1,peel,1,1/10 pda,2,1
+D2047,SAG21P1Q2_2,SAG,sagitta,2,1,peel,1,1/10 pda,2,2
+D2048,SAG21P1Q2_3,SAG,sagitta,2,1,peel,1,1/10 pda,2,3
+D2049,SAG21P1Q2_4,SAG,sagitta,2,1,peel,1,1/10 pda,2,4
+D2050,SAG21P1Q2_5,SAG,sagitta,2,1,peel,1,1/10 pda,2,5
+D2051,SAG21P1Q2_6,SAG,sagitta,2,1,peel,1,1/10 pda,2,6
+D2052,SAG21P1Q2_7,SAG,sagitta,2,1,peel,1,1/10 pda,2,7
+D2053,SAG21P1Q2_8,SAG,sagitta,2,1,peel,1,1/10 pda,2,8
+D2054,SAG21P1Q2_9,SAG,sagitta,2,1,peel,1,1/10 pda,2,9
+D2055,SAG21P1Q2_10,SAG,sagitta,2,1,peel,1,1/10 pda,2,10
+D2056,SAG21P2Q2_1,SAG,sagitta,2,1,peel,2,1/10 pda,2,1
+D2057,SAG21P2Q2_2,SAG,sagitta,2,1,peel,2,1/10 pda,2,2
+D2058,SAG21P2Q2_3,SAG,sagitta,2,1,peel,2,1/10 pda,2,3
+D2059,SAG21P2Q2_4,SAG,sagitta,2,1,peel,2,1/10 pda,2,4
+D2060,SAG21P3Q2_1,SAG,sagitta,2,1,peel,3,1/10 pda,2,1
+D2061,SAG21P3Q2_2,SAG,sagitta,2,1,peel,3,1/10 pda,2,2
+D2062,SAG21P3Q2_3,SAG,sagitta,2,1,peel,3,1/10 pda,2,3
+D2063,SAG21P3Q2_4,SAG,sagitta,2,1,peel,3,1/10 pda,2,4
+D2064,SAG21P3Q2_5,SAG,sagitta,2,1,peel,3,1/10 pda,2,5
+D2065,SAG21P3Q2_6,SAG,sagitta,2,1,peel,3,1/10 pda,2,6
+D2066,SAG21P3Q2_7,SAG,sagitta,2,1,peel,3,1/10 pda,2,7
+D2067,SAG21P3Q2_8,SAG,sagitta,2,1,peel,3,1/10 pda,2,8
+D2068,SAG21D1P1_1,SAG,sagitta,2,1,crushed,1,pda,1,1
+D2069,SAG21D1P1_2,SAG,sagitta,2,1,crushed,1,pda,1,2
+D2070,SAG21D1P1_3,SAG,sagitta,2,1,crushed,1,pda,1,3
+D2071,SAG21D1P1_4,SAG,sagitta,2,1,crushed,1,pda,1,4
+D2072,SAG21D1P1_5,SAG,sagitta,2,1,crushed,1,pda,1,5
+D2073,SAG21D1P1_6,SAG,sagitta,2,1,crushed,1,pda,1,6
+D2074,SAG21D1P1_7,SAG,sagitta,2,1,crushed,1,pda,1,7
+D2075,SAG21D1P1_8,SAG,sagitta,2,1,crushed,1,pda,1,8
+D2076,SAG21D1P1_9,SAG,sagitta,2,1,crushed,1,pda,1,9
+D2077,SAG21D2P1_1,SAG,sagitta,2,1,crushed,2,pda,1,1
+D2078,SAG21D2P1_2,SAG,sagitta,2,1,crushed,2,pda,1,2
+D2079,SAG21D2P1_3,SAG,sagitta,2,1,crushed,2,pda,1,3
+D2080,SAG21D1P2_1,SAG,sagitta,2,1,crushed,1,pda,2,1
+D2081,SAG21D2P2_1,SAG,sagitta,2,1,crushed,2,pda,2,1
+D2082,SAG21D2P2_2,SAG,sagitta,2,1,crushed,2,pda,2,2
+D2083,SAG21D2P2_3,SAG,sagitta,2,1,crushed,2,pda,2,3
+D2084,SAG21D2P2_4,SAG,sagitta,2,1,crushed,2,pda,2,4
+D2085,SAG21D2P2_5,SAG,sagitta,2,1,crushed,2,pda,2,5
+E1001,SPU11P1P2_1,SPU,spunta,1,1,peel,1,pda,2,1
+E1002,SPU11P1P2_2,SPU,spunta,1,1,peel,1,pda,2,2
+E1003,SPU11P1P2_3,SPU,spunta,1,1,peel,1,pda,2,3
+E1004,SPU11P1P2_4,SPU,spunta,1,1,peel,1,pda,2,4
+E1005,SPU11P1P2_5,SPU,spunta,1,1,peel,1,pda,2,5
+E1006,SPU11P1P2_6,SPU,spunta,1,1,peel,1,pda,2,6
+E1007,SPU11P2P2_2,SPU,spunta,1,1,peel,2,pda,2,2
+E1008,SPU11P2P2_3,SPU,spunta,1,1,peel,2,pda,2,3
+E1009,SPU11P2P2_4,SPU,spunta,1,1,peel,2,pda,2,4
+E1010,SPU11P2P2_7,SPU,spunta,1,1,peel,2,pda,2,7
+E1011,SPU11P2Q2_1,SPU,spunta,1,1,peel,2,1/10 pda,2,1
+E1012,SPU11P1P1_2,SPU,spunta,1,1,peel,1,pda,1,2
+E1013,SPU11P1P1_3,SPU,spunta,1,1,peel,1,pda,1,3
+E1014,SPU11P2P1_1,SPU,spunta,1,1,peel,2,pda,1,1
+E1015,SPU11P2P1_2,SPU,spunta,1,1,peel,2,pda,1,2
+E1016,SPU11P2P1_3,SPU,spunta,1,1,peel,2,pda,1,3
+E1017,SPU11P2P1_4,SPU,spunta,1,1,peel,2,pda,1,4
+E1018,SPU11P2P1_5,SPU,spunta,1,1,peel,2,pda,1,5
+E1019,SPU11P1Q1_1,SPU,spunta,1,1,peel,1,1/10 pda,1,1
+E1020,SPU11P1Q1_2,SPU,spunta,1,1,peel,1,1/10 pda,1,2
+E1021,SPU11P1Q1_3,SPU,spunta,1,1,peel,1,1/10 pda,1,3
+E1022,SPU11P1Q1_4,SPU,spunta,1,1,peel,1,1/10 pda,1,4
+E1023,SPU11P1Q1_5,SPU,spunta,1,1,peel,1,1/10 pda,1,5
+E1024,SPU11P1Q1_6,SPU,spunta,1,1,peel,1,1/10 pda,1,6
+E1025,SPU11P1Q1_7,SPU,spunta,1,1,peel,1,1/10 pda,1,7
+E1026,SPU11P1Q1_8,SPU,spunta,1,1,peel,1,1/10 pda,1,8
+E2001,SPU21P1Q1_1,SPU,spunta,2,1,peel,1,1/10 pda,1,1
+E2002,SPU21P1Q1_2,SPU,spunta,2,1,peel,1,1/10 pda,1,2
+E2003,SPU21P1Q1_3,SPU,spunta,2,1,peel,1,1/10 pda,1,3
+E2004,SPU21P1Q1_4,SPU,spunta,2,1,peel,1,1/10 pda,1,4
+E2005,SPU21P1Q1_5,SPU,spunta,2,1,peel,1,1/10 pda,1,5
+E2006,SPU21P1Q1_6,SPU,spunta,2,1,peel,1,1/10 pda,1,6
+E2007,SPU21P1Q1_7,SPU,spunta,2,1,peel,1,1/10 pda,1,7
+E2008,SPU21P1Q1_8,SPU,spunta,2,1,peel,1,1/10 pda,1,8
+E2009,SPU21P1Q1_9,SPU,spunta,2,1,peel,1,1/10 pda,1,9
+E1027,SPU11P2Q1_1,SPU,spunta,1,1,peel,2,1/10 pda,1,1
+E1028,SPU11P2Q1_2,SPU,spunta,1,1,peel,2,1/10 pda,1,2
+E1029,SPU11P2Q1_3,SPU,spunta,1,1,peel,2,1/10 pda,1,3
+E1030,SPU11P2Q1_4,SPU,spunta,1,1,peel,2,1/10 pda,1,4
+E1031,SPU11P2Q1_5,SPU,spunta,1,1,peel,2,1/10 pda,1,5
+E1032,SPU11P2Q1_6,SPU,spunta,1,1,peel,2,1/10 pda,1,6
+E1033,SPU11P2Q1_7,SPU,spunta,1,1,peel,2,1/10 pda,1,7
+E1034,SPU11P2Q1_8,SPU,spunta,1,1,peel,2,1/10 pda,1,8
+E1035,SPU11P2Q1_9,SPU,spunta,1,1,peel,2,1/10 pda,1,9
+E1036,SPU11P3Q1_1,SPU,spunta,1,1,peel,3,1/10 pda,1,1
+E1037,SPU11P3Q1_2,SPU,spunta,1,1,peel,3,1/10 pda,1,2
+E1038,SPU11P3Q1_3,SPU,spunta,1,1,peel,3,1/10 pda,1,3
+E1039,SPU11P3Q1_4,SPU,spunta,1,1,peel,3,1/10 pda,1,4
+E1040,SPU11P1Q1_9,SPU,spunta,1,1,peel,1,1/10 pda,1,9
+E1041,SPU11P1Q1_10,SPU,spunta,1,1,peel,1,1/10 pda,1,10
+E1042,SPU11P1Q1_11,SPU,spunta,1,1,peel,1,1/10 pda,1,11
+E1043,SPU11P1Q1_12,SPU,spunta,1,1,peel,1,1/10 pda,1,12
+E1044,SPU11P1Q1_13,SPU,spunta,1,1,peel,1,1/10 pda,1,13
+E1045,SPU11D2P1_1,SPU,spunta,1,1,crushed,2,pda,1,1
+E1046,SPU11D2P1_2,SPU,spunta,1,1,crushed,2,pda,1,2
+E1047,SPU11D2P1_3,SPU,spunta,1,1,crushed,2,pda,1,3
+E1048,SPU11D1P2_1,SPU,spunta,1,1,crushed,1,pda,2,1
+E1049,SPU11D1P2_5,SPU,spunta,1,1,crushed,1,pda,2,5
+E2010,SPU21P1P1_2,SPU,spunta,2,1,peel,1,pda,1,2
+E2011,SPU21P1P1_3,SPU,spunta,2,1,peel,1,pda,1,3
+E2012,SPU21P3Q1_1,SPU,spunta,2,1,peel,3,1/10 pda,1,1
+E2013,SPU21P3Q1_2,SPU,spunta,2,1,peel,3,1/10 pda,1,2
+E2014,SPU21P3Q1_3,SPU,spunta,2,1,peel,3,1/10 pda,1,3
+E2015,SPU21P3Q1_4,SPU,spunta,2,1,peel,3,1/10 pda,1,4
+E2016,SPU21P3Q1_5,SPU,spunta,2,1,peel,3,1/10 pda,1,5
+E2017,SPU21P1P2_2,SPU,spunta,2,1,peel,1,pda,2,2
+E2018,SPU21P1P2_3,SPU,spunta,2,1,peel,1,pda,2,3
+E2019,SPU21P3P2_2,SPU,spunta,2,1,peel,3,pda,2,2
+E2020,SPU21P3P2_4,SPU,spunta,2,1,peel,3,pda,2,4
+E2021,SPU21P3P2_5,SPU,spunta,2,1,peel,3,pda,2,5
+E2022,SPU21P3P2_6,SPU,spunta,2,1,peel,3,pda,2,6
+E2023,SPU21P1Q2_1,SPU,spunta,2,1,peel,1,1/10 pda,2,1
+E2024,SPU21P1Q2_2,SPU,spunta,2,1,peel,1,1/10 pda,2,2
+E2025,SPU21P1Q2_7,SPU,spunta,2,1,peel,1,1/10 pda,2,7
+E2026,SPU21P1Q2_11,SPU,spunta,2,1,peel,1,1/10 pda,2,11
+E2027,SPU21P1Q2_14,SPU,spunta,2,1,peel,1,1/10 pda,2,14
+E2028,SPU21P2Q2_1,SPU,spunta,2,1,peel,2,1/10 pda,2,1
+E2029,SPU21P3Q2_1,SPU,spunta,2,1,peel,3,1/10 pda,2,1
+E2030,SPU21D1P1_2,SPU,spunta,2,1,crushed,1,pda,1,2
+E2031,SPU21D1P1_3,SPU,spunta,2,1,crushed,1,pda,1,3
+E2032,SPU21D1P1_5,SPU,spunta,2,1,crushed,1,pda,1,5
+E2033,SPU21D1P1_6,SPU,spunta,2,1,crushed,1,pda,1,6
+E2034,SPU21D1P1_7,SPU,spunta,2,1,crushed,1,pda,1,7
+E2035,SPU21D1P1_8,SPU,spunta,2,1,crushed,1,pda,1,8
+E2036,SPU21D1P1_9,SPU,spunta,2,1,crushed,1,pda,1,9
+E2037,SPU21D1P1_10,SPU,spunta,2,1,crushed,1,pda,1,10
+E2038,SPU21D1P1_11,SPU,spunta,2,1,crushed,1,pda,1,11
+E2039,SPU21D1P1_12,SPU,spunta,2,1,crushed,1,pda,1,12
+E2040,SPU21D1P1_13,SPU,spunta,2,1,crushed,1,pda,1,13
+E2041,SPU21D1P1_14,SPU,spunta,2,1,crushed,1,pda,1,14
+E2042,SPU21D1P1_15,SPU,spunta,2,1,crushed,1,pda,1,15
+E2043,SPU21D1P1_16,SPU,spunta,2,1,crushed,1,pda,1,16
+E2044,SPU21D1P1_17,SPU,spunta,2,1,crushed,1,pda,1,17
+E2045,SPU21D1P1_18,SPU,spunta,2,1,crushed,1,pda,1,18
+E2046,SPU21D1P1_19,SPU,spunta,2,1,crushed,1,pda,1,19
+E2047,SPU21D1P1_20,SPU,spunta,2,1,crushed,1,pda,1,20
+E2048,SPU21D2P1_1,SPU,spunta,2,1,crushed,2,pda,1,1
+E2049,SPU21D2P1_2,SPU,spunta,2,1,crushed,2,pda,1,2
+E2050,SPU21D2P1_3,SPU,spunta,2,1,crushed,2,pda,1,3
+E2051,SPU21D3P1_1,SPU,spunta,2,1,crushed,3,pda,1,1
+E2052,SPU21D3P1_2,SPU,spunta,2,1,crushed,3,pda,1,2
+E2053,SPU21D3P1_3,SPU,spunta,2,1,crushed,3,pda,1,3
+E2054,SPU21D3P1_4,SPU,spunta,2,1,crushed,3,pda,1,4
+E2055,SPU21D1P2_1,SPU,spunta,2,1,crushed,1,pda,2,1
+E2056,SPU21D1P2_2,SPU,spunta,2,1,crushed,1,pda,2,2
+E2057,SPU21D1P2_4,SPU,spunta,2,1,crushed,1,pda,2,4
+E2058,SPU21D1P2_5,SPU,spunta,2,1,crushed,1,pda,2,5
+E2059,SPU21D1P2_6,SPU,spunta,2,1,crushed,1,pda,2,6
+E2060,SPU21D1P2_7,SPU,spunta,2,1,crushed,1,pda,2,7
+E2061,SPU21D1P2_8,SPU,spunta,2,1,crushed,1,pda,2,8
+E2062,SPU21D1P2_9,SPU,spunta,2,1,crushed,1,pda,2,9
+E2063,SPU21D1P2_10,SPU,spunta,2,1,crushed,1,pda,2,10
+E2064,SPU21D1P2_11,SPU,spunta,2,1,crushed,1,pda,2,11
+E2065,SPU21D1P2_12,SPU,spunta,2,1,crushed,1,pda,2,12
+E2066,SPU21D1P2_13,SPU,spunta,2,1,crushed,1,pda,2,13
+E2067,SPU21D1P2_14,SPU,spunta,2,1,crushed,1,pda,2,14
+E2068,SPU21D1P2_15,SPU,spunta,2,1,crushed,1,pda,2,15
+E2069,SPU21D1P2_16,SPU,spunta,2,1,crushed,1,pda,2,16
+E2070,SPU21D1P2_17,SPU,spunta,2,1,crushed,1,pda,2,17
+E2071,SPU21D1P2_18,SPU,spunta,2,1,crushed,1,pda,2,18
+E2072,SPU21D1P2_19,SPU,spunta,2,1,crushed,1,pda,2,19
+E2073,SPU21D1P2_20,SPU,spunta,2,1,crushed,1,pda,2,20
+E2074,SPU21D1P2_21,SPU,spunta,2,1,crushed,1,pda,2,21
+E2075,SPU21D1P2_22,SPU,spunta,2,1,crushed,1,pda,2,22
+E2076,SPU21D1P2_23,SPU,spunta,2,1,crushed,1,pda,2,23
+E2077,SPU21D1P2_24,SPU,spunta,2,1,crushed,1,pda,2,24
+E2078,SPU21D1P2_26,SPU,spunta,2,1,crushed,1,pda,2,26
+E2079,SPU21D1P2_27,SPU,spunta,2,1,crushed,1,pda,2,27
+E2080,SPU21D1P2_28,SPU,spunta,2,1,crushed,1,pda,2,28
+E2081,SPU21D1P2_29,SPU,spunta,2,1,crushed,1,pda,2,29
+E2082,SPU21D1P2_30,SPU,spunta,2,1,crushed,1,pda,2,30
+E2083,SPU21D1P2_31,SPU,spunta,2,1,crushed,1,pda,2,31
+E2084,SPU21D1P2_32,SPU,spunta,2,1,crushed,1,pda,2,32
+E2085,SPU21D1P2_33,SPU,spunta,2,1,crushed,1,pda,2,33
+E2086,SPU21D2P2_1,SPU,spunta,2,1,crushed,2,pda,2,1
+E2087,SPU21D2P2_2,SPU,spunta,2,1,crushed,2,pda,2,2
+E2088,SPU21D2P2_3,SPU,spunta,2,1,crushed,2,pda,2,3
+E2089,SPU21D2P2_4,SPU,spunta,2,1,crushed,2,pda,2,4
+E2090,SPU21D2P2_5,SPU,spunta,2,1,crushed,2,pda,2,5
+E2091,SPU21D2P2_6,SPU,spunta,2,1,crushed,2,pda,2,6
+E2092,SPU21D2P2_7,SPU,spunta,2,1,crushed,2,pda,2,7
+E2093,SPU21D2P2_8,SPU,spunta,2,1,crushed,2,pda,2,8
+E2094,SPU21D2P2_9,SPU,spunta,2,1,crushed,2,pda,2,9
+E2095,SPU21D2P2_10,SPU,spunta,2,1,crushed,2,pda,2,10
+E2096,SPU21D3P2_1,SPU,spunta,2,1,crushed,3,pda,2,1
