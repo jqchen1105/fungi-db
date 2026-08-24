@@ -1042,3 +1042,135 @@ E2093,SPU21D2P2_8,SPU,spunta,2,1,crushed,2,pda,2,8
 E2094,SPU21D2P2_9,SPU,spunta,2,1,crushed,2,pda,2,9
 E2095,SPU21D2P2_10,SPU,spunta,2,1,crushed,2,pda,2,10
 E2096,SPU21D3P2_1,SPU,spunta,2,1,crushed,3,pda,2,1
+E2097,SPU21P1P2_16,SPU,spunta,2,1,peel,1,pda,2,16
+E1050,SPU11D3P2_1,SPU,spunta,1,1,crushed,3,pda,2,1
+E1051,SPU11D3P2_2,SPU,spunta,1,1,crushed,3,pda,2,2
+E1052,SPU11P1P1_1,SPU,spunta,1,1,peel,1,pda,1,1
+E1053,SPU11P1P1_4,SPU,spunta,1,1,peel,1,pda,1,4
+E1054,SPU11P1P1_6,SPU,spunta,1,1,peel,1,pda,1,6
+E1055,SPU11P1P1_7,SPU,spunta,1,1,peel,1,pda,1,7
+E1056,SPU11P1P1_8,SPU,spunta,1,1,peel,1,pda,1,8
+E1057,SPU11P1P1_9,SPU,spunta,1,1,peel,1,pda,1,9
+E1058,SPU11P1P1_10,SPU,spunta,1,1,peel,1,pda,1,10
+E1059,SPU11P1P1_11,SPU,spunta,1,1,peel,1,pda,1,11
+E1060,SPU11P1P1_12,SPU,spunta,1,1,peel,1,pda,1,12
+E1061,SPU11P1P1_13,SPU,spunta,1,1,peel,1,pda,1,13
+E1062,SPU11P1P1_14,SPU,spunta,1,1,peel,1,pda,1,14
+E1063,SPU11P1P1_15,SPU,spunta,1,1,peel,1,pda,1,15
+E1064,SPU11P1P1_16,SPU,spunta,1,1,peel,1,pda,1,16
+E1065,SPU11P1P2_7,SPU,spunta,1,1,peel,1,pda,2,7
+E1066,SPU11P2P2_1,SPU,spunta,1,1,peel,2,pda,2,1
+E1067,SPU11P2P2_5,SPU,spunta,1,1,peel,2,pda,2,5
+E1068,SPU11P2P2_6,SPU,spunta,1,1,peel,2,pda,2,6
+E1069,SPU11P2P2_8,SPU,spunta,1,1,peel,2,pda,2,8
+E1070,SPU11P2Q1_10,SPU,spunta,1,1,peel,2,1/10 pda,1,10
+E1071,SPU11P2Q1_11,SPU,spunta,1,1,peel,2,1/10 pda,1,11
+E1072,SPU11P2Q1_12,SPU,spunta,1,1,peel,2,1/10 pda,1,12
+E1073,SPU11P2Q1_13,SPU,spunta,1,1,peel,2,1/10 pda,1,13
+E1074,SPU11P3Q1_5,SPU,spunta,1,1,peel,3,1/10 pda,1,5
+E1075,SPU11P3Q1_6,SPU,spunta,1,1,peel,3,1/10 pda,1,6
+E1076,SPU11P3Q1_7,SPU,spunta,1,1,peel,3,1/10 pda,1,7
+E1077,SPU11P3Q1_8,SPU,spunta,1,1,peel,3,1/10 pda,1,8
+E1078,SPU11P3Q1_9,SPU,spunta,1,1,peel,3,1/10 pda,1,9
+E1079,SPU11P3Q1_10,SPU,spunta,1,1,peel,3,1/10 pda,1,10
+E1080,SPU11P2Q2_2,SPU,spunta,1,1,peel,2,1/10 pda,2,2
+E1081,SPU11P2Q2_3,SPU,spunta,1,1,peel,2,1/10 pda,2,3
+E1082,SPU11D1P1_2,SPU,spunta,1,1,crushed,1,pda,1,2
+E1083,SPU11D1P1_9,SPU,spunta,1,1,crushed,1,pda,1,9
+E1084,SPU11D1P1_10,SPU,spunta,1,1,crushed,1,pda,1,10
+E1085,SPU11D1P1_11,SPU,spunta,1,1,crushed,1,pda,1,11
+E1086,SPU11D1P1_12,SPU,spunta,1,1,crushed,1,pda,1,12
+E1087,SPU11D1P1_13,SPU,spunta,1,1,crushed,1,pda,1,13
+E1088,SPU11D1P1_14,SPU,spunta,1,1,crushed,1,pda,1,14
+E1089,SPU11D3P2_3,SPU,spunta,1,1,crushed,3,pda,2,3
+E1090,SPU11D3P2_4,SPU,spunta,1,1,crushed,3,pda,2,4
+E1091,SPU11D3P2_5,SPU,spunta,1,1,crushed,3,pda,2,5
+E1092,SPU11D3P2_6,SPU,spunta,1,1,crushed,3,pda,2,6
+E1093,SPU11D3P2_7,SPU,spunta,1,1,crushed,3,pda,2,7
+E1094,SPU11D3P2_8,SPU,spunta,1,1,crushed,3,pda,2,8
+E1095,SPU11D1P2_2,SPU,spunta,1,1,crushed,1,pda,2,2
+E1096,SPU11D1P2_3,SPU,spunta,1,1,crushed,1,pda,2,3
+E1097,SPU11D1P2_4,SPU,spunta,1,1,crushed,1,pda,2,4
+E2098,SPU21P1P1_1,SPU,spunta,2,1,peel,1,pda,1,1
+E2099,SPU21P1P1_4,SPU,spunta,2,1,peel,1,pda,1,4
+E2100,SPU21P1P1_5,SPU,spunta,2,1,peel,1,pda,1,5
+E2101,SPU21P1P1_6,SPU,spunta,2,1,peel,1,pda,1,6
+E2102,SPU21P1P1_8,SPU,spunta,2,1,peel,1,pda,1,8
+E2103,SPU21P1Q2_3,SPU,spunta,2,1,peel,1,1/10 pda,2,3
+E2104,SPU21P1Q2_4,SPU,spunta,2,1,peel,1,1/10 pda,2,4
+E2105,SPU21P1Q2_5,SPU,spunta,2,1,peel,1,1/10 pda,2,5
+E2106,SPU21P1Q2_6,SPU,spunta,2,1,peel,1,1/10 pda,2,6
+E2107,SPU21P1Q2_8,SPU,spunta,2,1,peel,1,1/10 pda,2,8
+E2108,SPU21P1Q2_9,SPU,spunta,2,1,peel,1,1/10 pda,2,9
+E2109,SPU21P1Q2_10,SPU,spunta,2,1,peel,1,1/10 pda,2,10
+E2110,SPU21P1Q2_12,SPU,spunta,2,1,peel,1,1/10 pda,2,12
+E2111,SPU21P1Q2_13,SPU,spunta,2,1,peel,1,1/10 pda,2,13
+E2112,SPU21P2Q2_2,SPU,spunta,2,1,peel,2,1/10 pda,2,2
+E2113,SPU21P2Q2_3,SPU,spunta,2,1,peel,2,1/10 pda,2,3
+E2114,SPU21P2Q2_4,SPU,spunta,2,1,peel,2,1/10 pda,2,4
+E2115,SPU21P2Q2_5,SPU,spunta,2,1,peel,2,1/10 pda,2,5
+E2116,SPU21P2Q2_6,SPU,spunta,2,1,peel,2,1/10 pda,2,6
+E2117,SPU21P2Q2_7,SPU,spunta,2,1,peel,2,1/10 pda,2,7
+E2118,SPU21D1P1_1,SPU,spunta,2,1,crushed,1,pda,1,1
+E2119,SPU21D1P2_25,SPU,spunta,2,1,crushed,1,pda,2,25
+A2123,CHA21D1P2_10,CHA,challenger,2,1,crushed,1,pda,2,10
+A2124,CHA21D1P2_11,CHA,challenger,2,1,crushed,1,pda,2,11
+D1072,SAG11P1P1_5,SAG,sagitta,1,1,peel,1,pda,1,5
+D1073,SAG11P1P1_6,SAG,sagitta,1,1,peel,1,pda,1,6
+D1074,SAG11P1P2_5,SAG,sagitta,1,1,peel,1,pda,2,5
+D1075,SAG11P1P2_6,SAG,sagitta,1,1,peel,1,pda,2,6
+D1076,SAG11P1P2_7,SAG,sagitta,1,1,peel,1,pda,2,7
+D1077,SAG11P1P2_8,SAG,sagitta,1,1,peel,1,pda,2,8
+D1078,SAG11P1P2_9,SAG,sagitta,1,1,peel,1,pda,2,9
+D1079,SAG11P2P2_1,SAG,sagitta,1,1,peel,2,pda,2,1
+D1080,SAG11P2P2_2,SAG,sagitta,1,1,peel,2,pda,2,2
+D1081,SAG11P2P2_3,SAG,sagitta,1,1,peel,2,pda,2,3
+D1082,SAG11P2P2_4,SAG,sagitta,1,1,peel,2,pda,2,4
+D1083,SAG11P2P2_5,SAG,sagitta,1,1,peel,2,pda,2,5
+D1084,SAG11P3P2_4,SAG,sagitta,1,1,peel,3,pda,2,4
+D1085,SAG11P2Q2_4,SAG,sagitta,1,1,peel,2,1/10 pda,2,4
+D1086,SAG11P2Q2_5,SAG,sagitta,1,1,peel,2,1/10 pda,2,5
+D1087,SAG11P3Q2_1,SAG,sagitta,1,1,peel,3,1/10 pda,2,1
+D1088,SAG11P3Q2_3,SAG,sagitta,1,1,peel,3,1/10 pda,2,3
+D1089,SAG11P3Q2_4,SAG,sagitta,1,1,peel,3,1/10 pda,2,4
+D1090,SAG11D1P1_12,SAG,sagitta,1,1,crushed,1,pda,1,12
+D1091,SAG11D1P1_16,SAG,sagitta,1,1,crushed,1,pda,1,16
+D1092,SAG11D1P1_20,SAG,sagitta,1,1,crushed,1,pda,1,20
+D1093,SAG11D1P1_24,SAG,sagitta,1,1,crushed,1,pda,1,24
+D1094,SAG11P1Q1_8,SAG,sagitta,1,1,peel,1,1/10 pda,1,8
+D1095,SAG11D1P1_9,SAG,sagitta,1,1,crushed,1,pda,1,9
+D1096,SAG11D1P1_15,SAG,sagitta,1,1,crushed,1,pda,1,15
+D1097,SAG11D1P1_17,SAG,sagitta,1,1,crushed,1,pda,1,17
+D1098,SAG11D1P1_22,SAG,sagitta,1,1,crushed,1,pda,1,22
+D1099,SAG11D1P1_23,SAG,sagitta,1,1,crushed,1,pda,1,23
+D1100,SAG11D1P1_21,SAG,sagitta,1,1,crushed,1,pda,1,21
+D1101,SAG11D1P1_10,SAG,sagitta,1,1,crushed,1,pda,1,10
+D1102,SAG11D1P1_11,SAG,sagitta,1,1,crushed,1,pda,1,11
+D1103,SAG11D1P1_13,SAG,sagitta,1,1,crushed,1,pda,1,13
+D1104,SAG11D1P1_14,SAG,sagitta,1,1,crushed,1,pda,1,14
+D1105,SAG11D1P1_19,SAG,sagitta,1,1,crushed,1,pda,1,19
+D2086,SAG21P1P1_14,SAG,sagitta,2,1,peel,1,pda,1,14
+D2087,SAG21P2P1_3,SAG,sagitta,2,1,peel,2,pda,1,3
+D2088,SAG21P3P1_6,SAG,sagitta,2,1,peel,3,pda,1,6
+D2089,SAG21P1P2_12,SAG,sagitta,2,1,peel,1,pda,2,12
+D2090,SAG21P3P2_3,SAG,sagitta,2,1,peel,3,pda,2,3
+D2091,SAG21P2Q1_7,SAG,sagitta,2,1,peel,2,1/10 pda,1,7
+D2092,SAG21P2Q1_8,SAG,sagitta,2,1,peel,2,1/10 pda,1,8
+D2093,SAG21P2Q1_9,SAG,sagitta,2,1,peel,2,1/10 pda,1,9
+D2094,SAG21P2Q1_10,SAG,sagitta,2,1,peel,2,1/10 pda,1,10
+D2095,SAG21P2Q1_11,SAG,sagitta,2,1,peel,2,1/10 pda,1,11
+D2096,SAG21P2Q2_5,SAG,sagitta,2,1,peel,2,1/10 pda,2,5
+D2097,SAG21P2Q2_6,SAG,sagitta,2,1,peel,2,1/10 pda,2,6
+D2098,SAG21P2Q2_7,SAG,sagitta,2,1,peel,2,1/10 pda,2,7
+D2099,SAG21P2Q2_8,SAG,sagitta,2,1,peel,2,1/10 pda,2,8
+D2100,SAG21D2P1_4,SAG,sagitta,2,1,crushed,2,pda,1,4
+D2101,SAG21D2P1_5,SAG,sagitta,2,1,crushed,2,pda,1,5
+D2102,SAG21D2P2_6,SAG,sagitta,2,1,crushed,2,pda,2,6
+D2103,SAG21D2P2_7,SAG,sagitta,2,1,crushed,2,pda,2,7
+D2104,SAG21D2P2_8,SAG,sagitta,2,1,crushed,2,pda,2,8
+D2105,SAG21D2P2_9,SAG,sagitta,2,1,crushed,2,pda,2,9
+D2106,SAG21D3P2_1,SAG,sagitta,2,1,crushed,3,pda,2,1
+B1135,COL11D1P1_12,COL,colomba,1,1,crushed,1,pda,1,12
+D2107,SAG21P2P1_4,SAG,sagitta,2,1,peel,2,pda,1,4
+C1060,INN11P2P2_5,INN,innovator,1,1,peel,2,pda,2,5
+C2153,INN21P3P2_1,INN,innovator,2,1,peel,3,pda,2,1
