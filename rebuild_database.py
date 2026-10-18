@@ -9,6 +9,7 @@ PLATE_REGISTRY_CSV = "plate_registry.csv"
 SEQUENCING_IDS_CSV = "sequencing_ids.csv"
 ANNOTATIONS_CSV = "isolate_annotations.csv"
 LOCATIONS_CSV = "isolate_locations.csv"
+WORKFLOW_CSV = "sequencing_workflow.csv"
 
 ANNOTATION_FIELDS = [
     "seq_id",
@@ -33,6 +34,19 @@ LOCATION_FIELDS = [
     "species_group",
     "container",
     "position",
+    "notes",
+    "updated_at",
+]
+
+WORKFLOW_FIELDS = [
+    "seq_id",
+    "plate_id",
+    "base_id",
+    "role",
+    "reference_seq_id",
+    "dna_status",
+    "pcr_status",
+    "sequencing_status",
     "notes",
     "updated_at",
 ]
@@ -64,7 +78,7 @@ def ensure_csv(path, fields):
 def create_tables(conn):
     cur = conn.cursor()
 
-    for table in ["isolates", "sequencing_ids", "plate_registry", "isolate_annotations", "isolate_locations"]:
+    for table in ["isolates", "sequencing_ids", "plate_registry", "isolate_annotations", "isolate_locations", "sequencing_workflow"]:
         cur.execute(f"DROP TABLE IF EXISTS {table}")
 
     cur.execute("""
@@ -131,6 +145,21 @@ def create_tables(conn):
     """)
 
     cur.execute("""
+    CREATE TABLE sequencing_workflow (
+        seq_id TEXT PRIMARY KEY,
+        plate_id TEXT,
+        base_id TEXT,
+        role TEXT,
+        reference_seq_id TEXT,
+        dna_status TEXT,
+        pcr_status TEXT,
+        sequencing_status TEXT,
+        workflow_notes TEXT,
+        updated_at TEXT
+    )
+    """)
+
+    cur.execute("""
     CREATE TABLE isolates (
         seq_id TEXT PRIMARY KEY,
         final_id TEXT UNIQUE,
@@ -181,6 +210,10 @@ def create_tables(conn):
     cur.execute("CREATE INDEX idx_isolates_species ON isolates(species)")
     cur.execute("CREATE INDEX idx_isolates_status ON isolates(status)")
     cur.execute("CREATE INDEX idx_isolates_bag_code ON isolates(bag_code)")
+    cur.execute("CREATE INDEX idx_workflow_role ON sequencing_workflow(role)")
+    cur.execute("CREATE INDEX idx_workflow_reference ON sequencing_workflow(reference_seq_id)")
+    cur.execute("CREATE INDEX idx_workflow_pcr ON sequencing_workflow(pcr_status)")
+    cur.execute("CREATE INDEX idx_workflow_seqstatus ON sequencing_workflow(sequencing_status)")
 
 
 def import_plate_registry(conn, rows):
@@ -281,6 +314,31 @@ def import_locations(conn, rows):
         ))
 
 
+
+def import_workflow(conn, rows):
+    cur = conn.cursor()
+    for row in rows:
+        seq_id = normalize(row.get("seq_id"))
+        if not seq_id:
+            continue
+        cur.execute("""
+        INSERT INTO sequencing_workflow (
+            seq_id, plate_id, base_id, role, reference_seq_id,
+            dna_status, pcr_status, sequencing_status, workflow_notes, updated_at
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            seq_id,
+            normalize(row.get("plate_id")),
+            normalize(row.get("base_id")),
+            normalize(row.get("role")),
+            normalize(row.get("reference_seq_id")),
+            normalize(row.get("dna_status")),
+            normalize(row.get("pcr_status")),
+            normalize(row.get("sequencing_status")),
+            normalize(row.get("notes")),
+            normalize(row.get("updated_at")),
+        ))
+
 def build_isolates_table(conn):
     conn.execute("""
     INSERT INTO isolates (
@@ -340,11 +398,13 @@ def build_isolates_table(conn):
 def main():
     ensure_csv(ANNOTATIONS_CSV, ANNOTATION_FIELDS)
     ensure_csv(LOCATIONS_CSV, LOCATION_FIELDS)
+    ensure_csv(WORKFLOW_CSV, WORKFLOW_FIELDS)
 
     plate_rows = read_csv(PLATE_REGISTRY_CSV)
     seq_rows = read_csv(SEQUENCING_IDS_CSV)
     annotation_rows = read_csv(ANNOTATIONS_CSV)
     location_rows = read_csv(LOCATIONS_CSV)
+    workflow_rows = read_csv(WORKFLOW_CSV)
 
     conn = sqlite3.connect(DB_FILE)
     try:
@@ -353,6 +413,7 @@ def main():
         import_sequencing_ids(conn, seq_rows)
         import_annotations(conn, annotation_rows)
         import_locations(conn, location_rows)
+        import_workflow(conn, workflow_rows)
         build_isolates_table(conn)
         conn.commit()
 
@@ -362,6 +423,7 @@ def main():
         print(f"sequencing_ids rows: {cur.execute('SELECT COUNT(*) FROM sequencing_ids').fetchone()[0]}")
         print(f"annotation rows: {cur.execute('SELECT COUNT(*) FROM isolate_annotations').fetchone()[0]}")
         print(f"location rows: {cur.execute('SELECT COUNT(*) FROM isolate_locations').fetchone()[0]}")
+        print(f"workflow rows: {cur.execute('SELECT COUNT(*) FROM sequencing_workflow').fetchone()[0]}")
         print(f"active website isolates: {cur.execute('SELECT COUNT(*) FROM isolates').fetchone()[0]}")
     finally:
         conn.close()

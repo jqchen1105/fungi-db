@@ -31,6 +31,18 @@ BASE_STYLE = """
     .status-inactive { background: #ffebee; }
     .status-slow { background: #fff8e1; }
     .status-unknown { background: #f3f3f3; }
+    .species-green { background: #dff3e3; font-weight: 600; }
+    .workflow-inactive td { background: #e6e6e6 !important; color: #888; }
+    .workflow-inactive a { color: #777; }
+    .filter-details { margin: 10px 0 12px; max-width: 1000px; }
+    .filter-details > summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+    .workflow-filters { margin: 6px 0 8px; display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: flex-start; }
+    .filter-group { min-width: 170px; }
+    .filter-group summary { cursor: pointer; font-weight: 600; padding: 4px 0; }
+    .filter-options { padding: 4px 0 2px 16px; }
+    .filter-options label { display: flex; align-items: center; gap: 7px; margin: 4px 0; white-space: nowrap; }
+    .filter-options input[type='checkbox'] { width: auto; margin: 0; flex: 0 0 auto; }
+    .filter-actions { margin-top: 8px; }
 </style>
 """
 
@@ -38,6 +50,7 @@ HOME_HTML = """
 <!doctype html>
 <html><head><title>Fungi Database</title>{{ style|safe }}</head>
 <body>
+<div class="toplinks"><a href="{{ url_for('sequencing_workflow_page') }}">Sequencing Workflow</a></div>
 <h1>Fungi Isolates</h1>
 <div><span class="badge">{{ total }} active isolates</span><span class="badge">{{ identified }} with species</span><span class="badge">{{ located }} assigned locations</span></div>
 <form class="searchbar" action="{{ url_for('search') }}" method="get">
@@ -111,6 +124,30 @@ ISOLATE_HTML = """
 <tr><th>Image Path</th><td>{{ isolate.image_path or "" }}</td></tr>
 <tr><th>Notes</th><td style="white-space: pre-wrap;">{{ isolate.notes or "" }}</td></tr>
 </table>
+
+<h2>Sequencing Workflow</h2>
+{% if workflow %}
+<table>
+<tr><th>Role</th><td>{{ workflow.role or "undecided" }}</td></tr>
+<tr><th>Reference isolate</th><td>{% if workflow.reference_seq_id %}<a href="{{ url_for('isolate_page', seq_id=workflow.reference_seq_id) }}">{{ workflow.reference_seq_id }}</a>{% else %}-{% endif %}</td></tr>
+<tr><th>DNA status</th><td>{{ workflow.dna_status or "not extracted" }}</td></tr>
+<tr><th>PCR status</th><td>{{ workflow.pcr_status or "not attempted" }}</td></tr>
+<tr><th>Sequencing status</th><td>{{ workflow.sequencing_status or "not sent" }}</td></tr>
+<tr><th>Workflow notes</th><td>{{ workflow.workflow_notes or "" }}</td></tr>
+<tr><th>Updated</th><td>{{ workflow.updated_at or "" }}</td></tr>
+</table>
+{% else %}
+<p class="small">No sequencing workflow record yet.</p>
+{% endif %}
+
+{% if reference_for %}
+<h3>Reference for</h3>
+<p>
+{% for child in reference_for %}
+<a class="badge" href="{{ url_for('isolate_page', seq_id=child.seq_id) }}">{{ child.seq_id }}</a>
+{% endfor %}
+</p>
+{% endif %}
 </body></html>
 """
 
@@ -135,6 +172,86 @@ SEARCH_HTML = """
 </body></html>
 """
 
+
+
+SEQUENCING_WORKFLOW_HTML = """
+<!doctype html>
+<html><head><title>Sequencing Workflow - Fungi Database</title>{{ style|safe }}</head>
+<body>
+<div class="toplinks"><a href="{{ url_for('home') }}">Home</a></div>
+<h1>Sequencing Workflow</h1>
+
+<form class="searchbar" method="get">
+<input name="q" placeholder="Search ID, plate, species, reference or status" value="{{ q }}">
+
+<details class="filter-details" {% if filters_active %}open{% endif %}>
+<summary>Filters{% if filters_active %} — active{% endif %}</summary>
+<div class="workflow-filters">
+  <details class="filter-group" {% if selected_roles %}open{% endif %}>
+    <summary>Role{% if selected_roles %} ({{ selected_roles|length }}){% endif %}</summary>
+    <div class="filter-options">
+    {% for value in role_filters %}
+    <label><input type="checkbox" name="role" value="{{ value }}" {% if value in selected_roles %}checked{% endif %}> <span>{{ value }}</span></label>
+    {% endfor %}
+    </div>
+  </details>
+
+  <details class="filter-group" {% if selected_dna %}open{% endif %}>
+    <summary>DNA{% if selected_dna %} ({{ selected_dna|length }}){% endif %}</summary>
+    <div class="filter-options">
+    {% for value in dna_filters %}
+    <label><input type="checkbox" name="dna" value="{{ value }}" {% if value in selected_dna %}checked{% endif %}> <span>{{ value }}</span></label>
+    {% endfor %}
+    </div>
+  </details>
+
+  <details class="filter-group" {% if selected_pcr %}open{% endif %}>
+    <summary>PCR{% if selected_pcr %} ({{ selected_pcr|length }}){% endif %}</summary>
+    <div class="filter-options">
+    {% for label, value in pcr_filters %}
+    <label><input type="checkbox" name="pcr" value="{{ value }}" {% if value in selected_pcr %}checked{% endif %}> <span>{{ label }}</span></label>
+    {% endfor %}
+    </div>
+  </details>
+
+  <details class="filter-group" {% if selected_seq %}open{% endif %}>
+    <summary>Sequencing{% if selected_seq %} ({{ selected_seq|length }}){% endif %}</summary>
+    <div class="filter-options">
+    {% for label, value in seq_filters %}
+    <label><input type="checkbox" name="seq" value="{{ value }}" {% if value in selected_seq %}checked{% endif %}> <span>{{ label }}</span></label>
+    {% endfor %}
+    </div>
+  </details>
+</div>
+<div class="filter-actions">
+<button type="submit">Apply filters</button>
+<a href="{{ url_for('sequencing_workflow_page') }}" style="margin-left:10px;">Clear filters</a>
+</div>
+</details>
+</form>
+
+<p>{{ rows|length }} isolate(s)</p>
+<table>
+<tr>
+<th>Seq ID</th><th>Plate ID</th><th>Species</th><th>Role</th><th>Reference</th>
+<th>DNA</th><th>PCR</th><th>Sequencing</th><th>Workflow notes</th>
+</tr>
+{% for row in rows %}
+<tr class="{% if row.culture_status == 'inactive after first plating' %}workflow-inactive{% endif %}">
+<td><a href="{{ url_for('isolate_page', seq_id=row.seq_id) }}">{{ row.seq_id }}</a></td>
+<td>{{ row.final_id or "" }}</td>
+<td class="{% if row.sequencing_status == 'sent' and row.species %}species-green{% endif %}">{{ row.species or "" }}</td>
+<td>{{ row.role or "undecided" }}</td>
+<td>{% if row.reference_seq_id %}<a href="{{ url_for('isolate_page', seq_id=row.reference_seq_id) }}">{{ row.reference_seq_id }}</a>{% else %}-{% endif %}</td>
+<td>{{ row.dna_status or "not extracted" }}</td>
+<td>{{ row.pcr_status or "not attempted" }}</td>
+<td>{{ row.sequencing_status or "not sent" }}</td>
+<td>{{ row.workflow_notes or "" }}</td>
+</tr>
+{% endfor %}
+</table>
+</body></html>
+"""
 
 def get_connection():
     conn = sqlite3.connect(DB)
@@ -195,10 +312,21 @@ def cultivar_page(cultivar):
 def isolate_page(seq_id):
     conn = get_connection()
     isolate = conn.execute("SELECT * FROM isolates WHERE seq_id = ?", (seq_id,)).fetchone()
-    conn.close()
     if isolate is None:
+        conn.close()
         abort(404)
-    return render_template_string(ISOLATE_HTML, style=BASE_STYLE, isolate=isolate)
+    workflow = conn.execute(
+        "SELECT * FROM sequencing_workflow WHERE seq_id = ?", (seq_id,)
+    ).fetchone()
+    reference_for = conn.execute(
+        "SELECT seq_id FROM sequencing_workflow WHERE reference_seq_id = ? ORDER BY seq_id",
+        (seq_id,)
+    ).fetchall()
+    conn.close()
+    return render_template_string(
+        ISOLATE_HTML, style=BASE_STYLE, isolate=isolate,
+        workflow=workflow, reference_for=reference_for
+    )
 
 
 @app.route("/isolate/<seq_id>/edit", methods=["GET", "POST"])
@@ -269,6 +397,101 @@ def edit_isolate(seq_id):
         "not tested", "active", "inactive after first plating",
         "inactive after transfer", "slow growth", "contaminated", "lost"
     ])
+
+
+
+@app.route("/sequencing")
+def sequencing_workflow_page():
+    q = request.args.get("q", "").strip()
+
+    selected_roles = request.args.getlist("role")
+    selected_dna = request.args.getlist("dna")
+    selected_pcr = request.args.getlist("pcr")
+    selected_seq = request.args.getlist("seq")
+
+    role_filters = ["reference", "cross-reference", "morphology ID", "direct", "undecided"]
+    dna_filters = ["not extracted", "extracted", "low concentration", "poor quality"]
+    pcr_filters = [
+        ("not attempted", "not attempted"),
+        ("successful", "successful"),
+        ("failed", "failed"),
+        ("double band", "double band"),
+        ("weak band", "weak band"),
+    ]
+    seq_filters = [
+        ("not sent", "not sent"),
+        ("not required", "not required"),
+        ("sent", "sent"),
+        ("successful", "successful"),
+        ("messy", "messy"),
+        ("failed", "failed"),
+    ]
+
+    conditions = []
+    params = []
+
+    if q:
+        like = f"%{q}%"
+        conditions.append("""(
+            i.seq_id LIKE ? OR i.final_id LIKE ? OR i.species LIKE ?
+            OR w.reference_seq_id LIKE ? OR w.role LIKE ?
+            OR w.dna_status LIKE ? OR w.pcr_status LIKE ?
+            OR w.sequencing_status LIKE ? OR w.workflow_notes LIKE ?
+        )""")
+        params.extend([like] * 9)
+
+    # Multiple choices WITHIN a category are OR.
+    # Different categories are combined with AND.
+    if selected_roles:
+        placeholders = ",".join("?" for _ in selected_roles)
+        conditions.append(f"COALESCE(w.role, 'undecided') IN ({placeholders})")
+        params.extend(selected_roles)
+
+    if selected_dna:
+        placeholders = ",".join("?" for _ in selected_dna)
+        conditions.append(f"COALESCE(w.dna_status, 'not extracted') IN ({placeholders})")
+        params.extend(selected_dna)
+
+    if selected_pcr:
+        placeholders = ",".join("?" for _ in selected_pcr)
+        conditions.append(f"COALESCE(w.pcr_status, 'not attempted') IN ({placeholders})")
+        params.extend(selected_pcr)
+
+    if selected_seq:
+        placeholders = ",".join("?" for _ in selected_seq)
+        conditions.append(f"COALESCE(w.sequencing_status, 'not sent') IN ({placeholders})")
+        params.extend(selected_seq)
+
+    where = "WHERE " + " AND ".join(conditions) if conditions else ""
+
+    conn = get_connection()
+    rows = conn.execute(f"""
+        SELECT
+            i.seq_id, i.final_id, i.species, i.culture_status,
+            w.role, w.reference_seq_id, w.dna_status, w.pcr_status,
+            w.sequencing_status, w.workflow_notes, w.updated_at
+        FROM isolates i
+        LEFT JOIN sequencing_workflow w ON i.seq_id = w.seq_id
+        {where}
+        ORDER BY i.seq_id
+    """, params).fetchall()
+    conn.close()
+
+    return render_template_string(
+        SEQUENCING_WORKFLOW_HTML,
+        style=BASE_STYLE,
+        rows=rows,
+        q=q,
+        role_filters=role_filters,
+        dna_filters=dna_filters,
+        pcr_filters=pcr_filters,
+        seq_filters=seq_filters,
+        selected_roles=selected_roles,
+        selected_dna=selected_dna,
+        selected_pcr=selected_pcr,
+        selected_seq=selected_seq,
+        filters_active=bool(selected_roles or selected_dna or selected_pcr or selected_seq),
+    )
 
 
 @app.route("/search")

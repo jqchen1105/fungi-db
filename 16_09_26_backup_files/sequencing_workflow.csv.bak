@@ -1,0 +1,306 @@
+seq_id,plate_id,base_id,role,reference_seq_id,dna_status,pcr_status,sequencing_status,notes,updated_at
+A1001,CHA11P1P1_1,CHA11P1P1,undecided,,not extracted,successful,not sent,cgweuefgdfg,2026-09-15T16:34:24
+A1003,CHA11P1P1_3,CHA11P1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:19:50
+A1004,CHA11P1P1_4,CHA11P1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:19:54
+A1005,CHA11P1P1_5,CHA11P1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:19:58
+A1006,CHA11P1P1_6,CHA11P1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:20:01
+A1007,CHA11P1P1_7,CHA11P1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:20:04
+A1008,CHA11P2P1_1,CHA11P2P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:20:22
+A1009,CHA11P2P1_2,CHA11P2P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:20:25
+A1010,CHA11P2P1_3,CHA11P2P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:20:31
+A1013,CHA11P2P1_6,CHA11P2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:20:35
+A1016,CHA11P1Q1_2,CHA11P1Q1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:20:41
+A1020,CHA11P2Q1_1,CHA11P2Q1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:20:45
+A1026,CHA11P1P2_6,CHA11P1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:20:48
+A1029,CHA11P1P2_9,CHA11P1P2,undecided,,not extracted,failed,not sent,,2026-09-15T16:20:53
+A1030,CHA11P1P2_10,CHA11P1P2,undecided,,not extracted,failed,not sent,,2026-09-15T16:21:00
+A1086,CHA11D2P1_2,CHA11D2P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:27:58
+A1096,CHA11D2P1_12,CHA11D2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:01
+A2025,CHA21P1Q1_3,CHA21P1Q1,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:10
+A2034,CHA21P1Q1_12,CHA21P1Q1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:28:38
+A2035,CHA21P2Q1_1,CHA21P2Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:28:41
+A2040,CHA21P3Q1_4,CHA21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:28:44
+A2074,CHA21P1Q2_7,CHA21P1Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:47
+A2076,CHA21P1Q2_9,CHA21P1Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:50
+A2079,CHA21P2Q2_2,CHA21P2Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:28:55
+A2084,CHA21P2Q2_7,CHA21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:58
+A2085,CHA21P2Q2_8,CHA21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:29:01
+A2086,CHA21P2Q2_9,CHA21P2Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:29:04
+A2087,CHA21P2Q2_10,CHA21P2Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:29:07
+A2096,CHA21D1P1_5,CHA21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:29:18
+A2105,CHA21D1P1_14,CHA21D1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:29:22
+A2107,CHA21D1P1_16,CHA21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:29:25
+A2108,CHA21D2P1_1,CHA21D2P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:29:35
+B1001,COL11P1P1_1,COL11P1P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:12:52
+B1004,COL11P1P1_4,COL11P1P1,direct,,extracted,successful,successful,,2026-09-15T16:12:58
+B1005,COL11P1P1_5,COL11P1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:10:43
+B1006,COL11P1P1_6,COL11P1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:10:51
+B1007,COL11P1P1_7,COL11P1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:10:55
+B1009,COL11P1P1_9,COL11P1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:11:08
+B1010,COL11P1Q1_1,COL11P1Q1,undecided,,not extracted,successful,not sent,,2026-09-15T16:11:11
+B1011,COL11P1Q1_2,COL11P1Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:16
+B1012,COL11P1Q1_3,COL11P1Q1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:11:21
+B1013,COL11P1Q1_4,COL11P1Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:28
+B1014,COL11P1Q1_5,COL11P1Q1,undecided,,not extracted,successful,not sent,,2026-09-15T16:11:34
+B1015,COL11P1Q1_6,COL11P1Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:38
+B1016,COL11P1Q1_7,COL11P1Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:49
+B1018,COL11P1Q1_9,COL11P1Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:52
+B1019,COL11P3Q1_1,COL11P3Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:11:55
+B1020,COL11P3Q1_2,COL11P3Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:12:00
+B1021,COL11P3Q1_3,COL11P3Q1,undecided,,not extracted,failed,not sent,,2026-09-15T16:12:04
+B1051,COL11P1Q2_1,COL11P1Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:29:58
+B1052,COL11P1Q2_2,COL11P1Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:16:04
+B1055,COL11P1Q2_5,COL11P1Q2,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:18:01
+B1056,COL11P1Q2_6,COL11P1Q2,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:18:07
+B1057,COL11P1Q2_7,COL11P1Q2,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:18:15
+B1059,COL11P1Q2_9,COL11P1Q2,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:18:25
+B1060,COL11P1Q2_10,COL11P1Q2,undecided,,not extracted,failed,not sent,its successful but faint,2026-09-15T16:18:36
+B1063,COL11P1Q2_13,COL11P1Q2,undecided,,not extracted,double band,not sent,its successful,2026-09-15T16:27:15
+B1066,COL11P2Q2_3,COL11P2Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:27:01
+B1068,COL11P2Q2_5,COL11P2Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:18:52
+B1070,COL11P3Q2_1,COL11P3Q2,undecided,,not extracted,weak band,not sent,,2026-09-15T16:16:58
+B1072,COL11P3Q2_3,COL11P3Q2,undecided,,not extracted,weak band,not sent,its successful,2026-09-15T16:27:08
+B1073,COL11P3Q2_4,COL11P3Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:17:08
+B1076,COL11P3Q2_7,COL11P3Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:17:14
+B1078,COL11P3Q2_9,COL11P3Q2,undecided,,not extracted,successful,not sent,,2026-09-15T16:17:19
+B1080,COL11P3Q2_11,COL11P3Q2,undecided,,not extracted,failed,not sent,its successful but faint,2026-09-15T16:19:09
+B1082,COL11D1P1_2,COL11D1P1,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:19:19
+B1090,COL11D1P1_10,COL11D1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:17:30
+B1097,COL11D2P1_6,COL11D2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:28:04
+B1107,COL11D1P2_10,COL11D1P2,undecided,,not extracted,weak band,not sent,,2026-09-15T16:24:56
+B1120,COL11D2P2_11,COL11D2P2,undecided,,not extracted,failed,not sent,,2026-09-15T16:27:19
+B1121,COL11D2P2_12,COL11D2P2,undecided,,not extracted,failed,not sent,,2026-09-15T16:27:22
+B1122,COL11D2P2_13,COL11D2P2,undecided,,not extracted,failed,not sent,b1122-1 pcr successful,2026-09-15T16:27:43
+B1123,COL11D2P2_14,COL11D2P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:27:48
+B1124,COL11D2P2_15,COL11D2P2,undecided,,not extracted,failed,not sent,,2026-09-15T16:27:53
+B1125,COL11D2P2_16,COL11D2P2,undecided,,not extracted,successful,not sent,b1125-1 and b1125 both pcr successful,2026-09-15T16:24:21
+B1126,COL11D2P2_17,COL11D2P2,undecided,,not extracted,successful,not sent,both b1126-1 and b1126 pcr successful,2026-09-15T16:24:48
+B1129,COL11D3P2_1,COL11D3P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:23:20
+B1130,COL11D3P2_2,COL11D3P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:23:18
+B1131,COL11D3P2_3,COL11D3P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:23:14
+B1134,COL11D3P2_6,COL11D3P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:23:12
+B2010,COL21P2P1_2,COL21P2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:26:02
+B2018,COL21P2P1_10,COL21P2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:26:06
+B2025,COL21P2P1_17,COL21P2P1,undecided,,not extracted,not attempted,not sent,sample a2025-d only,2026-09-15T16:28:26
+B2028,COL21P1Q1_1,COL21P1Q1,undecided,,not extracted,successful,not sent,,2026-09-15T16:26:09
+B2044,COL21P1P2_8,COL21P1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:26:12
+B2047,COL21P2P2_1,COL21P2P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:29:48
+B2073,COL21P1Q2_8,COL21P1Q2,undecided,,not extracted,failed,not sent,,2026-09-15T16:26:19
+B2087,COL21D1P1_1,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:26:22
+B2091,COL21D1P1_5,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:23:09
+B2094,COL21D1P1_8,COL21D1P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:21:39
+B2103,COL21D1P1_17,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:47
+B2119,COL21D1P1_33,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:53
+B2124,COL21D1P1_38,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:57
+B2125,COL21D1P1_39,COL21D1P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:22:01
+B2126,COL21D2P1_1,COL21D2P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:22:04
+B2127,COL21D3P1_1,COL21D3P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:25:06
+B2128,COL21D3P1_2,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:25:56
+B2129,COL21D3P1_3,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:25:54
+B2130,COL21D3P1_4,COL21D3P1,undecided,,not extracted,successful,not sent,b2130 ps7 fragment was smaller than b2130-1,2026-09-15T16:25:47
+B2134,COL21D3P1_8,COL21D3P1,undecided,,not extracted,failed,not sent,,2026-09-15T16:25:21
+B2135,COL21D3P1_9,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:25:18
+B2136,COL21D3P1_10,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:25:15
+B2137,COL21D3P1_11,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:25:12
+B2139,COL21D3P1_13,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:07
+B2140,COL21D3P1_14,COL21D3P1,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:12
+B2141,COL21D1P2_1,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:16
+B2143,COL21D1P2_3,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:20
+B2147,COL21D1P2_7,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:23
+B2151,COL21D1P2_11,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:27
+B2152,COL21D1P2_12,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:31
+B2155,COL21D1P2_15,COL21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:21:35
+B2167,COL21D3P2_3,COL21D3P2,undecided,,not extracted,failed,not sent,its successful,2026-09-15T16:19:29
+B2168,COL21D3P2_4,COL21D3P2,undecided,,not extracted,weak band,not sent,,2026-09-15T16:26:56
+C1002,INN11P3P1_1,INN11P3P1,undecided,,not extracted,successful,not sent,PCR successful after cleaning with magnetic beads,2026-09-15T16:13:40
+C1003,INN11P3P1_2,INN11P3P1,undecided,,not extracted,successful,failed,,2026-09-14T13:03:41
+C1004,INN11P3P1_3,INN11P3P1,undecided,,not extracted,successful,failed,pcr successful after cleaning with magnetic beads,2026-09-15T16:14:03
+C1005,INN11P3P1_4,INN11P3P1,undecided,,not extracted,weak band,failed,,2026-09-15T16:08:19
+C1006,INN11P3P1_5,INN11P3P1,undecided,,not extracted,successful,not sent,,2026-09-14T11:28:40
+C1007,INN11P3P1_6,INN11P3P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:16:19
+C1008,INN11P3P1_7,INN11P3P1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:13
+C1009,INN11P3P1_8,INN11P3P1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:26
+C1010,INN11P3P1_9,INN11P3P1,undecided,,not extracted,weak band,not sent,,2026-09-14T11:29:03
+C1011,INN11P3P1_10,INN11P3P1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:31
+C1012,INN11P1Q1_1,INN11P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:34
+C1013,INN11P1Q1_2,INN11P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T11:47:43
+C1014,INN11P1Q1_3,INN11P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:53
+C1015,INN11P1Q1_4,INN11P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:47:57
+C1016,INN11P1Q1_5,INN11P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T11:48:03
+C1017,INN11P2Q1_1,INN11P2Q1,undecided,,not extracted,successful,messy,,2026-09-14T11:48:09
+C1018,INN11P2Q1_2,INN11P2Q1,undecided,,not extracted,successful,messy,,2026-09-14T11:48:23
+C1019,INN11P2Q1_3,INN11P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:48:35
+C1020,INN11P2Q1_4,INN11P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:48:40
+C1021,INN11P2Q1_5,INN11P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T11:49:46
+C1022,INN11P3Q1_1,INN11P3Q1,undecided,,not extracted,weak band,not sent,,2026-09-14T11:29:15
+C1023,INN11P1P2_1,INN11P1P2,undecided,,not extracted,successful,not sent,"Successful after cleaning, but second pcr was unsuccessful",2026-09-15T16:09:49
+C1024,INN11P1P2_2,INN11P1P2,undecided,,not extracted,successful,successful,,2026-09-14T11:49:57
+C1025,INN11P1P2_3,INN11P1P2,undecided,,not extracted,successful,successful,,2026-09-14T11:50:14
+C1026,INN11P1P2_4,INN11P1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:09:59
+C1030,INN11P2P2_2,INN11P2P2,undecided,,not extracted,successful,successful,,2026-09-14T11:50:19
+C1031,INN11P2P2_3,INN11P2P2,undecided,,not extracted,failed,not sent,not successful pcr even after cleaning,2026-09-15T16:14:15
+C1034,INN11P3P2_2,INN11P3P2,undecided,,not extracted,weak band,failed,,2026-09-14T11:50:34
+C1035,INN11P1Q2_1,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:50:46
+C1036,INN11P1Q2_2,INN11P1Q2,undecided,,not extracted,weak band,messy,,2026-09-14T11:50:55
+C1037,INN11P1Q2_3,INN11P1Q2,undecided,,not extracted,double band,not sent,,2026-09-15T16:10:12
+C1038,INN11P1Q2_4,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:17:53
+C1039,INN11P1Q2_5,INN11P1Q2,undecided,,not extracted,successful,messy,,2026-09-14T11:51:57
+C1040,INN11P1Q2_6,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:52:07
+C1041,INN11P1Q2_7,INN11P1Q2,undecided,,not extracted,weak band,messy,,2026-09-14T11:52:12
+C1042,INN11P1Q2_8,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:52:20
+C1043,INN11P1Q2_9,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:20
+C1044,INN11P1Q2_10,INN11P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:23
+C1045,INN11P2Q2_1,INN11P2Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:27
+C1046,INN11P2Q2_2,INN11P2Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:44
+C1047,INN11P2Q2_3,INN11P2Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:34
+C1048,INN11P2Q2_4,INN11P2Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:54
+C1050,INN11P2Q2_6,INN11P2Q2,undecided,,not extracted,successful,successful,,2026-09-14T11:53:57
+C1051,INN11D1P1_1,INN11D1P1,undecided,,not extracted,successful,not sent,pcr successful after cleaning with magnetic beads,2026-09-15T16:14:31
+C1052,INN11D1P2_1,INN11D1P2,undecided,,not extracted,successful,successful,,2026-09-14T11:54:02
+C1054,INN11D1P2_3,INN11D1P2,undecided,,not extracted,successful,successful,,2026-09-14T11:54:04
+C1055,INN11D1P2_4,INN11D1P2,undecided,,not extracted,successful,successful,,2026-09-14T11:54:14
+C1056,INN11D2P2_1,INN11D2P2,undecided,,not extracted,successful,successful,,2026-09-14T11:54:17
+C1060,INN11P2P2_5,INN11P2P2,undecided,,not extracted,failed,not sent,,2026-09-14T13:15:50
+C2002,INN21P1P1_2,INN21P1P1,undecided,,not extracted,successful,messy,,2026-09-14T11:54:33
+C2003,INN21P1P1_3,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:57:54
+C2004,INN21P1P1_4,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:57:57
+C2005,INN21P1P1_5,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:06
+C2006,INN21P1P1_6,INN21P1P1,undecided,,not extracted,weak band,not sent,,2026-09-15T16:10:19
+C2007,INN21P1P1_7,INN21P1P1,undecided,,not extracted,successful,messy,,2026-09-15T16:10:25
+C2008,INN21P1P1_8,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:18
+C2009,INN21P1P1_9,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:22
+C2010,INN21P1P1_10,INN21P1P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:28
+C2011,INN21P2P1_1,INN21P2P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:33
+C2012,INN21P2P1_2,INN21P2P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:47
+C2014,INN21P2P1_4,INN21P2P1,undecided,,not extracted,successful,successful,,2026-09-14T12:58:53
+C2015,INN21P3P1_1,INN21P3P1,undecided,,not extracted,successful,messy,,2026-09-14T13:04:05
+C2016,INN21P1Q1_1,INN21P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T12:58:58
+C2017,INN21P1Q1_2,INN21P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T12:59:04
+C2018,INN21P1Q1_3,INN21P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T12:59:22
+C2019,INN21P1Q1_4,INN21P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T12:59:25
+C2020,INN21P1Q1_5,INN21P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T12:59:56
+C2021,INN21P1Q1_6,INN21P1Q1,undecided,,not extracted,successful,messy,,2026-09-14T12:59:48
+C2022,INN21P1Q1_7,INN21P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:04
+C2023,INN21P1Q1_8,INN21P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:07
+C2024,INN21P1Q1_9,INN21P1Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:12
+C2025,INN21P1Q1_10,INN21P1Q1,undecided,,not extracted,not attempted,not sent,,2026-09-14T11:34:28
+C2026,INN21P2Q1_1,INN21P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:15
+C2027,INN21P2Q1_2,INN21P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:22
+C2028,INN21P2Q1_3,INN21P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:43
+C2029,INN21P2Q1_4,INN21P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:47
+C2030,INN21P2Q1_5,INN21P2Q1,undecided,,not extracted,successful,successful,,2026-09-14T13:00:50
+C2031,INN21P3Q1_1,INN21P3Q1,undecided,,not extracted,double band,not sent,double bands after pcr and cleaning with magnetic beads,2026-09-15T16:14:55
+C2032,INN21P3Q1_2,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:47
+C2033,INN21P3Q1_3,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:52
+C2034,INN21P3Q1_4,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:36
+C2035,INN21P3Q1_5,INN21P3Q1,undecided,,not extracted,double band,not sent,double bands after cleaning with magnetic beads,2026-09-15T16:15:17
+C2036,INN21P3Q1_6,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:23
+C2037,INN21P3Q1_7,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:25
+C2038,INN21P3Q1_8,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:56
+C2039,INN21P3Q1_9,INN21P3Q1,undecided,,not extracted,failed,not sent,,2026-09-14T11:44:59
+C2040,INN21P3Q1_10,INN21P3Q1,undecided,,not extracted,double band,failed,double bands after cleaning with magnetic beads,2026-09-15T16:15:35
+C2041,INN21P1P2_1,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:00:58
+C2042,INN21P1P2_2,INN21P1P2,undecided,,not extracted,successful,messy,,2026-09-14T13:01:02
+C2043,INN21P1P2_3,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:08
+C2044,INN21P1P2_4,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:11
+C2045,INN21P1P2_5,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:16
+C2046,INN21P1P2_6,INN21P1P2,undecided,,not extracted,successful,messy,,2026-09-14T13:01:21
+C2047,INN21P1P2_7,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:25
+C2048,INN21P1P2_8,INN21P1P2,undecided,,not extracted,successful,messy,,2026-09-14T13:01:31
+C2049,INN21P1P2_9,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:37
+C2050,INN21P1P2_10,INN21P1P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:42
+C2051,INN21P2P2_1,INN21P2P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:49
+C2052,INN21P2P2_2,INN21P2P2,undecided,,not extracted,successful,successful,,2026-09-14T13:01:54
+C2053,INN21P2P2_3,INN21P2P2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:00
+C2054,INN21P2P2_4,INN21P2P2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:03
+C2055,INN21P1Q2_1,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:07
+C2056,INN21P1Q2_2,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:13
+C2057,INN21P1Q2_3,INN21P1Q2,undecided,,not extracted,successful,messy,,2026-09-14T13:02:21
+C2058,INN21P1Q2_4,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:26
+C2059,INN21P1Q2_5,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:43
+C2060,INN21P1Q2_6,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:48
+C2061,INN21P1Q2_7,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:02:53
+C2062,INN21P1Q2_8,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:03:00
+C2063,INN21P1Q2_9,INN21P1Q2,undecided,,not extracted,successful,successful,,2026-09-14T13:03:05
+C2064,INN21P1Q2_10,INN21P1Q2,undecided,,not extracted,successful,failed,weak bands for second pcr,2026-09-15T16:12:46
+C2065,INN21P2Q2_1,INN21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:04:49
+C2066,INN21P2Q2_2,INN21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:04:54
+C2067,INN21P2Q2_3,INN21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:00
+C2068,INN21P2Q2_4,INN21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:04
+C2069,INN21P2Q2_5,INN21P2Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:09
+C2070,INN21P2Q2_6,INN21P2Q2,undecided,,not extracted,failed,not sent,,2026-09-14T13:16:10
+C2071,INN21P3Q2_1,INN21P3Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:16
+C2072,INN21P3Q2_2,INN21P3Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:22
+C2074,INN21P3Q2_4,INN21P3Q2,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:27
+C2075,INN21D1P1_1,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:31
+C2076,INN21D1P1_2,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:36
+C2077,INN21D1P1_3,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:40
+C2078,INN21D1P1_4,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:47
+C2079,INN21D1P1_5,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:52
+C2080,INN21D1P1_6,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:56
+C2081,INN21D1P1_7,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:05:59
+C2082,INN21D1P1_8,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:04
+C2083,INN21D1P1_9,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:13
+C2084,INN21D1P1_10,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:16
+C2085,INN21D1P1_11,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:20
+C2086,INN21D1P1_12,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:23
+C2087,INN21D1P1_13,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:27
+C2088,INN21D1P1_14,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:30
+C2089,INN21D1P1_15,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:33
+C2090,INN21D1P1_16,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:38
+C2091,INN21D1P1_17,INN21D1P1,undecided,,not extracted,weak band,not sent,,2026-09-14T13:06:46
+C2092,INN21D1P1_18,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:50
+C2093,INN21D1P1_19,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:54
+C2094,INN21D1P1_20,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:06:57
+C2095,INN21D1P1_21,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:01
+C2096,INN21D1P1_22,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:08
+C2097,INN21D1P1_23,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:11
+C2098,INN21D1P1_24,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:14
+C2099,INN21D1P1_25,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:22
+C2100,INN21D1P1_26,INN21D1P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:28
+C2101,INN21D1P1_27,INN21D1P1,undecided,,not extracted,failed,not sent,,2026-09-14T13:32:38
+C2102,INN21D3P1_1,INN21D3P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:40
+C2104,INN21D3P1_3,INN21D3P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:43
+C2105,INN21D3P1_4,INN21D3P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:46
+C2106,INN21D3P1_5,INN21D3P1,undecided,,not extracted,successful,not sent,,2026-09-14T13:07:50
+C2107,INN21D1P2_1,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:08:03
+C2108,INN21D1P2_2,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:08:11
+C2109,INN21D1P2_3,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:08:15
+C2110,INN21D1P2_4,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:08:20
+C2111,INN21D1P2_5,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:08:34
+C2112,INN21D1P2_6,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:07:08
+C2113,INN21D1P2_7,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:08:57
+C2114,INN21D1P2_8,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:00
+C2115,INN21D1P2_9,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:02
+C2116,INN21D1P2_10,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:06
+C2117,INN21D1P2_11,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:10
+C2118,INN21D1P2_12,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:14
+C2119,INN21D1P2_13,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:18
+C2120,INN21D1P2_14,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:25
+C2124,INN21D1P2_18,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:31
+C2125,INN21D1P2_19,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:35
+C2127,INN21D1P2_21,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:38
+C2128,INN21D1P2_22,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:09:42
+C2129,INN21D1P2_23,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:36
+C2130,INN21D1P2_24,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:39
+C2131,INN21D1P2_25,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:42
+C2132,INN21D1P2_26,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:45
+C2133,INN21D1P2_27,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:47
+C2134,INN21D1P2_28,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:50
+C2135,INN21D1P2_29,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:52
+C2136,INN21D1P2_30,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:11:55
+C2137,INN21D1P2_31,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:11:58
+C2138,INN21D1P2_32,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:12:01
+C2139,INN21D1P2_33,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:12:23
+C2140,INN21D1P2_34,INN21D1P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:12:19
+C2141,INN21D1P2_35,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:18:19
+C2142,INN21D1P2_36,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:12:41
+C2143,INN21D1P2_37,INN21D1P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:12:44
+C2144,INN21D2P2_1,INN21D2P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:13:16
+C2145,INN21D2P2_2,INN21D2P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:07:23
+C2146,INN21D2P2_3,INN21D2P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:13:54
+C2147,INN21D2P2_4,INN21D2P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:13:57
+C2148,INN21D2P2_5,INN21D2P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:14:03
+C2149,INN21D2P2_6,INN21D2P2,undecided,,not extracted,weak band,not sent,,2026-09-14T13:14:11
+C2150,INN21D2P2_7,INN21D2P2,undecided,,not extracted,successful,not sent,,2026-09-15T16:07:13
+C2151,INN21D2P2_8,INN21D2P2,undecided,,not extracted,successful,not sent,,2026-09-14T13:14:19
